@@ -137,10 +137,6 @@ h2 {
   letter-spacing: 1px;
 }
 
-section.music {
-  
-}
-
 section.about {
   position: relative;
   color: #fff;
@@ -149,6 +145,10 @@ section.about {
 
 .about p {
   max-width: 800px;
+}
+
+.about img {
+  width: 400px;
 }
 
 .contact-icons {
@@ -213,4 +213,41 @@ footer {
   background: #111;
   padding: 30px 0;
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .examples {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container.flex {
+    grid-gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .examples {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container.flex {
+    flex-direction: column;
+    grid-gap: 40px;
+  }
+
+  .about img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .examples {
+    grid-template-columns: 1fr;
+  }
 }

@@ -18,16 +18,10 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@hubert_razack" />
     <link rel="stylesheet" href="style.css" />
-    <script>
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-          });
-        });
-      });
-    </script>
+    <link rel="stylesheet" href="grt-youtube-popup.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="grt-youtube-popup.js"></script>
+    <script> $(".youtube").grtyoutube(); </script>
   </head>
 
   <body>
@@ -74,7 +68,7 @@
               Soaring romantic theme
             </div>
           </div>
-          <div class="example">
+          <div class="example youtube" youtubeid="Uus5zIMDB-o">
             <div class="background" style="background-image: url(images/examples/analog.jpg)"></div>
             <div class="legend">
               <img src="images/play.png" width="60" alt="Play video" />
@@ -131,7 +125,7 @@
           <p>Although is now focusing on his composition work, Hubert is also an accomplished tenor and can be found performing in and around Toronto.</p>
         </div>
         <div class="right">
-          <img src="images/headshot.jpg" width="400" />
+          <img src="images/headshot.jpg" alt="Hubert Razack" />
         </div>
       </div>
     </section>
