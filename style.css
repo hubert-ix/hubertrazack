@@ -166,7 +166,7 @@ section.hero {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #000 url(images/hubert-razack.webp) no-repeat;
+  background: #000 url(images/hubert-razack.jpg) no-repeat;
   background-size: cover;
   z-index: 1;
   padding: 0;
