@@ -23,11 +23,11 @@
     letter-spacing: 0;
   }
 
-  .choral h3 {
+  .orchestra h3 {
     color: #eab58c;
   }
 
-  .orchestra h3 {
+  .choral h3 {
     color: #d09adf;
   }
 

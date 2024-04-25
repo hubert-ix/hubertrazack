@@ -5,7 +5,20 @@
 
 
 <div in:fade>
+
   <section class="small first">
+    <div class="container">
+      <h2>Chamber & Orchestra</h2>
+      <div class="items">
+        <Piece type="orchestra" title="Adventure 84!" year="2024" description="For full orchestra" />
+        <Piece type="orchestra" title="The Edge of Spring" year="2024" description="For string quartet" />
+        <Piece type="orchestra" title="Gnossienne No. 1" year="2024" description="Arrangement for full orchestra" />
+        <Piece type="orchestra" title="Inspirium" year="2023" description="For hybrid orchestra" />
+      </div>
+    </div>
+  </section>
+
+  <section class="small alt">
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
@@ -14,17 +27,6 @@
         <Piece type="choral" title="In the Hour Between" year="2017" description="SATB + piano (poem by Emiko Hsuen)" />
         <Piece type="choral" title="Spring's Saraband" year="2017" description="SATB + piano (poem by Bliss Cartman)" />
         <Piece type="choral" title="God's Love, a mini-oratorio" year="2016" description="SATB + organ (extracts from the new and old testament)" />
-      </div>
-    </div>
-  </section>
-
-  <section class="small alt">
-    <div class="container">
-      <h2>Chamber & Orchestra</h2>
-      <div class="items">
-        <Piece type="orchestra" title="Adventure 84!" year="2024" description="For full orchestra" />
-        <Piece type="orchestra" title="The Edge of Spring" year="2024" description="For string quartet" />
-        <Piece type="orchestra" title="Gnossienne No. 1" year="2024" description="Arrangement for full orchestra" />
       </div>
     </div>
   </section>
@@ -45,6 +47,7 @@
       </div>
     </div>
   </section>
+
 </div>
 
 
