@@ -13,13 +13,14 @@
   <div class="container full header">
     <div class="header-left">
       <BurgerButton on:clicked={() => mobile = !mobile} />
-      <a on:click={() => scrollTo('home')}>Hubert Razack</a>
+      <a href="/">Hubert Razack</a>
     </div>
     <div class="header-right" id="nav">
-      <a on:click={() => scrollTo('home')}>Home</a>
-      <a on:click={() => scrollTo('music')}>Demo reel</a>
-      <a on:click={() => scrollTo('about')}>About</a>
-      <a on:click={() => scrollTo('contact')}>Contact</a>
+      <a href="/">Home</a>
+      <a href="/#music">Demo reel</a>
+      <a href="/stage">Stage & concert</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
     </div>
   </div>
 </header>

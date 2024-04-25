@@ -10,3 +10,10 @@
     <source {src} type="audio/mpeg" />
   </audio>
 </div>
+
+
+<style>
+  audio {
+    width: 90%;
+  }
+</style>
