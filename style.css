@@ -300,21 +300,42 @@ section.about {
 
 .more-examples-link {
   margin-top: 40px;
-  cursor: pointer;
+  display: flex;
+}
+
+.more-examples-link::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
   background: url(images/arrow-right.png) no-repeat 0px 4px;
   background-size: 24px; 
-  padding-left: 26px;
+  transition: all 0.2s;
+}
+
+.more-examples-link.open::before {
+  transform: rotate(90deg);
+  top: 3px;
+}
+
+.more-examples-link a {
+  cursor: pointer;
 }
 
 .more-examples {
   display: none;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
   margin-top: 40px;
 }
 
 .more-examples.show {
   display: grid;
+}
+
+audio {
+  width: 90%;
 }
 
 footer {
@@ -379,6 +400,14 @@ footer {
 
   section.hero {
     background-position: 0 60px;
+  }
+
+  .more-examples {
+    grid-template-columns: 1fr;
+  }
+
+  audio {
+    width: 100%;
   }
 }
 

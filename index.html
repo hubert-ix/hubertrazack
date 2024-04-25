@@ -132,22 +132,55 @@
               Theme song for a concert series
             </div>
           </div>
+            -->
         </div>
-        -->
-        <!--
         <div class="more-examples-link">
-          <a>More examples</a>
+          <a>More music</a>
         </div>
-        <!--
         <div class="more-examples">
           <div class="item">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/79942112&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hubert-razack" title="Hubert Razack" target="_blank" style="color: #cccccc; text-decoration: none;">Hubert Razack</a> · <a href="https://soundcloud.com/hubert-razack/journeyman" title="Journeyman" target="_blank" style="color: #cccccc; text-decoration: none;">Journeyman</a></div>
+            <div class="item-title">Feel good EDM</div>
+            <audio controls=false controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/Feeling%20Good.mp3?updatedAt=1714000658366" type="audio/mpeg" />
+            </audio>
           </div>
           <div class="item">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/242453742&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hubert-razack" title="Hubert Razack" target="_blank" style="color: #cccccc; text-decoration: none;">Hubert Razack</a> · <a href="https://soundcloud.com/hubert-razack/merrymaking" title="Once Upon a Rose - 12 - Merrymaking" target="_blank" style="color: #cccccc; text-decoration: none;">Once Upon a Rose - 12 - Merrymaking</a></div>
+            <div class="item-title">Energetic rock</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/Polymer.mp3?updatedAt=1714000657808" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="item">
+            <div class="item-title">Inspiring theme</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/OriginL.mp3?updatedAt=1714000658426" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="item">
+            <div class="item-title">Irish dance music</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/Color%20World.mp3?updatedAt=1714000659765" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="item">
+            <div class="item-title">Modern pop</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/Don't%20drop%20it.mp3?updatedAt=1714000658371" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="item">
+            <div class="item-title">Psychedelic electronic</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/Beyond.mp3?updatedAt=1714000658048" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="item">
+            <div class="item-title">Martial theme</div>
+            <audio controls controlsList="nodownload"preload="auto">
+              <source src="https://ik.imagekit.io/hubertrazack/audio/KFM.mp3?updatedAt=1714000659330" type="audio/mpeg" />
+            </audio>
           </div>
         </div>
-        -->
       </div>
     </section>
       
@@ -203,8 +236,9 @@
         $("a").on("click", function() {
           $("header").removeClass("mobile");
         });
-        $(".more-examples-link a").on("click", function() {
-          $(".more-examples").addClass("show");
+        $(".more-examples-link").on("click", function() {
+          $(this).toggleClass("open");
+          $(".more-examples").toggleClass("show");
         });
       });
     </script>
