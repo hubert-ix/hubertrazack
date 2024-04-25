@@ -37,6 +37,7 @@
     text-align: center;
     margin: auto;
     z-index: 10;
+    border-bottom: solid 2px #2c2c2c;
   }
 
   header a {
