@@ -1,0 +1,20 @@
+{
+	"name": "hubertrazack",
+	"version": "1.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --port 3200",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"svelte-scrollto": "^0.2.0",
+		"svelte-youtube-embed": "^0.2.3",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
+}
