@@ -8,15 +8,11 @@
 
 <div class="wrap {type}">
   <h3>{title} <span class="year">({year})</span></h3>
-  {description}
+  <slot />
 </div>
 
 
 <style>
-  .wrap {
-    margin-bottom: 2rem;
-  }
-  
   span.year {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;

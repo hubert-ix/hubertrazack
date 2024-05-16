@@ -44,6 +44,7 @@
       </div>
       {#if showMore}
         <div class="more-examples" transition:slide>
+          <!--
           <Audio title="Feel good EDM" src="https://ik.imagekit.io/hubertrazack/audio/Feeling%20Good.mp3?updatedAt=1714000658366" />
           <Audio title="Energetic rock" src="https://ik.imagekit.io/hubertrazack/audio/Polymer.mp3?updatedAt=1714000657808" />
           <Audio title="Inspiring theme" src="https://ik.imagekit.io/hubertrazack/audio/OriginL.mp3?updatedAt=1714000658426" />
@@ -51,6 +52,15 @@
           <Audio title="Modern pop" src="https://ik.imagekit.io/hubertrazack/audio/Don't%20drop%20it.mp3?updatedAt=1714000658371" />
           <Audio title="Haunting electronic" src="https://ik.imagekit.io/hubertrazack/audio/Beyond.mp3?updatedAt=1714000658048" />
           <Audio title="Martial epic theme" src="https://ik.imagekit.io/hubertrazack/audio/KFM.mp3?updatedAt=1714000659330" />
+          -->
+          <!-- ReelCrafter reel: Demo reel -->
+          <iframe
+            width="100%"
+            height="600"
+            scrolling="no"
+            frameborder="no"
+            src="https://play.reelcrafter.com/embed/0e594021-53aa-478b-88ad-8f1efb347c2d">
+          </iframe>
         </div>
       {/if}
     </div>
@@ -167,7 +177,7 @@
   }
 
   .more-examples {
-    display: grid;
+    /*display: grid;*/
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
