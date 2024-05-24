@@ -17,8 +17,9 @@
     </div>
     <div class="header-right" id="nav">
       <a href="/">Home</a>
-      <a href="/#music">Demo reel</a>
+      <a href="/#music">Music</a>
       <a href="/stage">Stage & concert</a>
+      <!--<a href="/recordings">Recordings</a>-->
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
     </div>
@@ -32,7 +33,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.8);
     padding: 20px 0;
     text-align: center;
     margin: auto;
@@ -90,15 +91,13 @@
     padding-bottom: 15px;
   }
 
-  
-
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 720px) {
     .header-right a {
       margin-left: 20px;
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 630px) {
     .header-right {
       display: none;
     }

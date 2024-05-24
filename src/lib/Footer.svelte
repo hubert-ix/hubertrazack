@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    Copyright &copy; 2023 ALC Creative
+    Copyright &copy; 2024 ALC Creative
   </div>
 </footer>
 

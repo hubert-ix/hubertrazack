@@ -13,7 +13,11 @@
 
 
 <div in:fade>
+
   <section class="hero">
+    <div class="hero-mobile">
+      <img src="https://ik.imagekit.io/hubertrazack/hubert-razack2c.jpg?tr=w-1000&h-200" alt="Hubert Razack"/>
+    </div>
     <div class="overlay"></div>
     <div class="overlay-content">
       <h1>Hubert Razack</h1>
@@ -28,61 +32,49 @@
 
   <section class="music" id="music">
     <div class="container">
-      <h2>Demo Reel</h2>
+      <h2>Music portfolio</h2>
+      <iframe
+        width="100%"
+        height="700"
+        scrolling="no"
+        frameborder="no"
+        src="https://play.reelcrafter.com/embed/0e594021-53aa-478b-88ad-8f1efb347c2d">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container">
+      <h2>Videos</h2>
       <div class="examples">
         <PortfolioVideo youtubeId="e7yMki4ROYg" title="Opening Theme for TV Show" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/beyond.jpg?updatedAt=1697912419952" />
         <PortfolioVideo youtubeId="4wU7_aJlteE" title="Soaring Romantic Theme" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/landscape.jpg?updatedAt=1697912420224" />
         <PortfolioVideo youtubeId="5r6BegBtxqw" title="Epic Fantasy Music" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/fantasy.jpg?updatedAt=1714072952209" />
-        <PortfolioVideo youtubeId="Uus5zIMDB-o" title="Other-wordly Electronic Soundscape" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/analog.jpg?updatedAt=1697912418168" />
+        <!--<PortfolioVideo youtubeId="Uus5zIMDB-o" title="Other-wordly Electronic Soundscape" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/analog.jpg?updatedAt=1697912418168" />-->
         <PortfolioVideo youtubeId="53-c90ccqo0" title="Action Scene" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/action.jpg?updatedAt=1714073060773" />
         <PortfolioVideo youtubeId="dM0FUhJiGMU" title="Music for animation/cartoon" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/monsters2.jpg?updatedAt=1714072979197" />
-        <PortfolioVideo youtubeId="OHQ9dOduiig" title="Irish Dance Show Premiered in Mexico City" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/rose.jpg?updatedAt=1697912419894" />
-        <PortfolioVideo youtubeId="pSkJMl8-MNU" title="Fantasy Atmospheric Ambiance" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/inspirium.jpg?updatedAt=1697912419829" />
+        <!--<PortfolioVideo youtubeId="OHQ9dOduiig" title="Irish Dance Show Premiered in Mexico City" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/rose.jpg?updatedAt=1697912419894" />
+        <PortfolioVideo youtubeId="pSkJMl8-MNU" title="Fantasy Atmospheric Ambiance" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/inspirium.jpg?updatedAt=1697912419829" />-->
       </div>
-      <div class="more-examples-link" class:open={showMore}>
-        <a on:click={() => showMore = !showMore}>More music for media</a>
-      </div>
-      {#if showMore}
-        <div class="more-examples" transition:slide>
-          <!--
-          <Audio title="Feel good EDM" src="https://ik.imagekit.io/hubertrazack/audio/Feeling%20Good.mp3?updatedAt=1714000658366" />
-          <Audio title="Energetic rock" src="https://ik.imagekit.io/hubertrazack/audio/Polymer.mp3?updatedAt=1714000657808" />
-          <Audio title="Inspiring theme" src="https://ik.imagekit.io/hubertrazack/audio/OriginL.mp3?updatedAt=1714000658426" />
-          <Audio title="Irish dance music" src="https://ik.imagekit.io/hubertrazack/audio/Color%20World.mp3?updatedAt=1714000659765" />
-          <Audio title="Modern pop" src="https://ik.imagekit.io/hubertrazack/audio/Don't%20drop%20it.mp3?updatedAt=1714000658371" />
-          <Audio title="Haunting electronic" src="https://ik.imagekit.io/hubertrazack/audio/Beyond.mp3?updatedAt=1714000658048" />
-          <Audio title="Martial epic theme" src="https://ik.imagekit.io/hubertrazack/audio/KFM.mp3?updatedAt=1714000659330" />
-          -->
-          <!-- ReelCrafter reel: Demo reel -->
-          <iframe
-            width="100%"
-            height="600"
-            scrolling="no"
-            frameborder="no"
-            src="https://play.reelcrafter.com/embed/0e594021-53aa-478b-88ad-8f1efb347c2d">
-          </iframe>
-        </div>
-      {/if}
     </div>
   </section>
     
-  <section class="alt about" id="about">
-    <div class="overlay"></div>
-    <div class="container flex overlay-content">
+  <section class="about" id="about">
+    <div class="container flex">
       <div class="left">
         <h2>About Hubert Razack</h2>
-        <p>Hubert Razack has been involved in the music industry for the best part of two decades. Born and trained classically in France, he moved in London, UK, to pursue a music career and produced a number of artists as well as his own projects.</p>
+        <p>Hubert Razack is a Toronto based composer for film, TV, and media. He has been involved in the music industry for the best part of two decades. Born and trained classically in France, he moved in London, UK, to pursue a music career and produced a number of artists as well as his own projects.</p>
         <p>Relocated in Toronto since 2006, he has composed music for media, concert series, and live shows, as well as continuing his music production business. He completed a post-graduate music composition course at Humber college in 2024.</p>
         <p>Now focusing on his media composition work and on helping filmmakers fulfill their vision, Hubert is also an accomplished tenor and can be found performing in and around Toronto.</p>
         <p>You can find out more about Hubert's many projects at <a href="https://www.livingmelody.com" target="new">www.livingmelody.com</a></p>
       </div>
       <div class="right">
-        <img src="https://ik.imagekit.io/hubertrazack/headshot.jpg?updatedAt=1697912434870" alt="Hubert Razack" />
+        <img src="https://ik.imagekit.io/hubertrazack/hubert-razack3.jpg?tr=w-600" alt="Hubert Razack" />
       </div>
     </div>
   </section>
 
-  <section class="contact" id="contact">
+  <section class="alt contact" id="contact">
     <div class="container">
       <h2>Contact</h2>
       <div class="contact-icons">
@@ -95,10 +87,15 @@
       </div>
     </div>
   </section>
+
 </div>
 
 
 <style>
+  h1 {
+    color: #000;
+  }
+
   section.hero {
     position: relative;
     /*height: 100%;*/
@@ -107,11 +104,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack.jpg?updatedAt=1697912435232) no-repeat;
+    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack2c.jpg?updatedAt=1716524467747) no-repeat;
     background-size: cover;
     background-position: 0 0;
     z-index: 1;
     padding: 0;
+  }
+
+  .hero-mobile {
+    display: none;
   }
 
   .overlay-content {
@@ -128,7 +129,8 @@
 
   .overlay {
     position: absolute;
-    background: rgba(19, 24, 29, .6);
+    /*background: rgba(19, 24, 29, .6);*/
+    background: linear-gradient(to left,rgba(19, 24, 29, 0.5),rgba(19, 24, 29, 0.3), rgba(255,255,255,0));
     width: 100%;
     height: 100%;
     top: 0;
@@ -151,35 +153,52 @@
     grid-gap: 20px;
   }
 
-  .more-examples-link {
-    margin-top: 40px;
-    display: flex;
+  @media only screen and (max-width: 1300px) {
+    .examples {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section.hero {
+      height: 600px;
+    }
   }
 
-  .more-examples-link::before {
-    content: '';
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    background: url(images/arrow-right.png) no-repeat 0px 4px;
-    background-size: 24px; 
-    transition: all 0.2s;
+  @media only screen and (max-width: 1000px) {
+    .examples {
+      grid-template-columns: 1fr 1fr;
+    }
+
   }
 
-  .more-examples-link.open::before {
-    transform: rotate(90deg);
-    top: 3px;
+  @media only screen and (max-width: 800px) {
+    section.hero {
+      height: 500px;
+    }
+
+    .arrow-down {
+      display: none;
+    }
   }
 
-  .more-examples-link a {
-    cursor: pointer;
+  @media only screen and (max-width: 700px) {
+    .examples {
+      grid-template-columns: 1fr;
+    }
+
+    .contact-icons img {
+      width: 50px;
+      margin-right: 20px;
+    }
   }
 
-  .more-examples {
-    /*display: grid;*/
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 40px;
+  @media only screen and (max-width: 500px) {
+    .about img {
+      width: 100%;
+    }
+
+    .contact-icons img {
+      width: 40px;
+      margin-right: 10px;
+    }
   }
 </style>

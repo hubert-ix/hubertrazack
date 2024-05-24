@@ -104,7 +104,7 @@ h3 {
 
 .subtitle {
   font-family: 'Dosis', sans-serif;
-  color: #999;
+  color: #eee;
   font-size: 1.43rem;
   letter-spacing: 1px;
 }
@@ -126,92 +126,38 @@ h3 {
 
 
 @media only screen and (max-width: 1300px) {
-  .examples {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .container.flex {
     grid-gap: 100px;
-  }
-
-  section.hero {
-    height: 600px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .examples {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .container.flex {
     grid-gap: 40px;
   }
 
-  .about img {
-    width: 300px;
-  }
-
-  section.hero {
-    height: 400px;
-    background-position: 0 30px;
+  section {
+    padding: 50px 0;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .container.flex {
     flex-direction: column;
     grid-gap: 40px;
   }
 
-  .about img {
-    width: 400px;
-  }
-  
-  .contact-icons img {
-    width: 50px;
-    margin-right: 20px;
-  }
-
-  section.hero {
-    background-position: 0 60px;
-  }
-
-  .more-examples {
-    grid-template-columns: 1fr;
-  }
-
-  audio {
-    width: 100%;
+  h1 {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.6);
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .examples {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  section.hero {
-    /*background-position: -100px top;*/
-    background-position: 0 60px;
-  }
-
+@media only screen and (max-width: 700px) {
   h1 {
     font-size: 3rem;
   }
 
   .subtitle {
     font-size: 1.1rem;
-  }
-
-  .about img {
-    width: 100%;
-  }
-
-  .contact-icons img {
-    width: 40px;
-    margin-right: 10px;
   }
 }
