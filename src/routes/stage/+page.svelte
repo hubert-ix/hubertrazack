@@ -6,7 +6,7 @@
 
 <div in:fade>
 
-  <section class="small first">
+  <section class="small first orchestra">
     <div class="container">
       <h2>Chamber & Orchestra</h2>
       <div class="items">
@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <section class="small">
+  <section class="small choir">
     <div class="container">
       <h2>Vocal</h2>
       <div class="items">
@@ -92,5 +92,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+  }
+
+  section.orchestra {
+    background-image: url(https://ik.imagekit.io/hubertrazack/orchestra.jpg?updatedAt=1716527423255);
+    background-size: cover;
+    background-position: 0 -350px;
+  }
+
+  section.choir {
+    background-image: url(https://ik.imagekit.io/hubertrazack/choir.jpg?updatedAt=1716527531181);
+    background-size: cover;
+    background-position: 0 -100px;
   }
 </style>
