@@ -149,15 +149,11 @@
 
   .examples {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
   }
 
   @media only screen and (max-width: 1300px) {
-    .examples {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-
     section.hero {
       height: 600px;
     }
