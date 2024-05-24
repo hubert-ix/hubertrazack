@@ -1,10 +1,7 @@
 <script>
-  import { fade, slide } from "svelte/transition";
+  import { fade } from "svelte/transition";
   import * as animateScroll from "svelte-scrollto";
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
-  import Audio from "$lib/Audio.svelte";
-
-  let showMore = false;
 
   function scrollTo(id) {
     animateScroll.scrollTo({element: '#' + id, duration: 0})
@@ -34,6 +31,7 @@
     <div class="container">
       <h2>Music portfolio</h2>
       <iframe
+        title="player"
         width="100%"
         height="700"
         scrolling="no"
@@ -99,7 +97,7 @@
   section.hero {
     position: relative;
     /*height: 100%;*/
-    height: 800px;
+    height: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,6 +149,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  @media only screen and (max-width: 1600px) {
+    section.hero {
+      height: 800px;
+    }
   }
 
   @media only screen and (max-width: 1300px) {
