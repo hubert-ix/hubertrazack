@@ -13,7 +13,7 @@
   <div class="container full header">
     <div class="header-left">
       <BurgerButton on:clicked={() => mobile = !mobile} />
-      <a href="/">Hubert Razack</a>
+      <a href="/" class="main">Hubert <span>Razack</span></a>
     </div>
     <div class="header-right" id="nav">
       <a href="/">Home</a>
@@ -49,9 +49,16 @@
     font-weight: 300;
     letter-spacing: 1px;
     border-bottom: solid 1px transparent;
-    padding-bottom: 4px;
     transition: border-color 0.4s;
     cursor: pointer;
+  }
+
+  header a.main {
+    font-size: 1.3rem;
+  }
+
+  header a span {
+    color: rgb(221 141 54);
   }
 
   header a:hover {
@@ -65,6 +72,7 @@
 
   .header-left {
     display: flex;
+    align-items: center;
     grid-gap: 20px;
   }
 
@@ -74,6 +82,8 @@
   }
 
   .header-right {
+    display: flex;
+    align-items: center;
     position: relative;
   }
 

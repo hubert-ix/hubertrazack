@@ -108,7 +108,7 @@
     background: #000 url(/images/hubert-test.jpg) no-repeat;
     background-size: 577px 777px;
     */
-    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4.jpg?updatedAt=1717042656741) no-repeat;
+    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4.jpg?updatedAt=1717043301880) no-repeat;
     background-size: cover;
     background-position: 0 0;
     z-index: 1;
