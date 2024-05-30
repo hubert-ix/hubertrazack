@@ -199,6 +199,10 @@
   }
 
   @media only screen and (max-width: 700px) {
+    section.hero {
+      margin-top: 80px;
+    }
+    
     .examples {
       grid-template-columns: 1fr;
     }
