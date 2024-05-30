@@ -17,7 +17,7 @@
     </div>
     <div class="overlay"></div>
     <div class="overlay-content">
-      <h1>Hubert Razack</h1>
+      <h1>Hubert <span>Razack</span></h1>
       <div class="subtitle">Toronto-based Composer for Film, TV, and Media</div>
     </div>
     <div class="arrow-down">
@@ -91,7 +91,18 @@
 
 <style>
   h1 {
-    color: #000;
+    color: #fff;
+  }
+
+  h1 span {
+    color: rgb(149 72 10);
+  }
+
+  .subtitle {
+    font-family: 'Dosis', sans-serif;
+    color: #eee;
+    font-size: 1.43rem;
+    letter-spacing: 1px;
   }
 
   section.hero {
@@ -179,6 +190,7 @@
   @media only screen and (max-width: 800px) {
     section.hero {
       height: 500px;
+      margin-top: 75px;
     }
 
     section.music {
@@ -199,8 +211,21 @@
   }
 
   @media only screen and (max-width: 700px) {
-    section.hero {
-      margin-top: 80px;
+    .overlay-content {
+      position: absolute;
+      right: 50px;
+      top: 100px;
+      text-align: right;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+      color: #fff;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
     }
     
     .examples {
@@ -210,6 +235,12 @@
     .contact-icons img {
       width: 50px;
       margin-right: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .overlay-content {
+      width: 200px;
     }
   }
 

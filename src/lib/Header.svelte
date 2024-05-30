@@ -54,7 +54,7 @@
   }
 
   header a.main {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   header a span {
