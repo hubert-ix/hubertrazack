@@ -91,7 +91,7 @@
 
 <style>
   h1 {
-    color: #fff;
+    color: #000;
   }
 
   h1 span {
@@ -221,7 +221,6 @@
     h1 {
       font-size: 3rem;
       line-height: 3rem;
-      color: #fff;
     }
 
     .subtitle {
