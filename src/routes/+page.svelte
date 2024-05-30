@@ -181,6 +181,18 @@
       height: 500px;
     }
 
+    section.music {
+      padding-bottom: 0;
+    }
+
+    section.music .container {
+      padding: 0;
+    }
+
+    section.music h2 {
+      margin-left: 24px;
+    }
+
     .arrow-down {
       display: none;
     }
