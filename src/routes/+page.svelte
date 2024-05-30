@@ -60,8 +60,8 @@
   <section class="about" id="about">
     <div class="container flex">
       <div class="left">
-        <h2>About Hubert Razack</h2>
-        <p>Hubert Razack is a Toronto based composer for film, TV, and media. He has been involved in the music industry for the best part of two decades. Born and trained classically in France, he moved in London, UK, to pursue a music career and produced a number of artists as well as his own projects.</p>
+        <h2>About Hubert</h2>
+        <p>Hubert Razack is a composer for film, TV, and media based in Toronto. He has been involved in the music industry for the best part of two decades. Born and trained classically in France, he moved in London, UK, to pursue a music career and produced a number of artists as well as his own projects.</p>
         <p>Relocated in Toronto since 2006, he has composed music for media, concert series, and live shows, as well as continuing his music production business. He completed a post-graduate music composition course at Humber college in 2024.</p>
         <p>Now focusing on his media composition work and on helping filmmakers fulfill their vision, Hubert is also an accomplished tenor and can be found performing in and around Toronto.</p>
         <p>You can find out more about Hubert's many projects at <a href="https://www.livingmelody.com" target="new">www.livingmelody.com</a></p>
@@ -102,7 +102,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /*
     background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack2c.jpg?updatedAt=1716524467747) no-repeat;
+    background-size: cover;
+    background: #000 url(/images/hubert-test.jpg) no-repeat;
+    background-size: 577px 777px;
+    */
+    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4.jpg?updatedAt=1717042656741) no-repeat;
     background-size: cover;
     background-position: 0 0;
     z-index: 1;
