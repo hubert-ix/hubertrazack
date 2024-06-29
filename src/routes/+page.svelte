@@ -75,7 +75,7 @@
   <section class="alt contact" id="contact">
     <div class="container">
       <h2>Contact</h2>
-      <ContactForm />
+      
       <div class="contact-icons">
         <a href="mailto:razack.hubert@gmail.com" target="new"><img src="/images/email.png" alt="email" width="80" height="80" /></a>
         <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="80" height="80" /></a>
