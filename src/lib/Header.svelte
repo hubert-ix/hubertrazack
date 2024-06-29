@@ -16,10 +16,9 @@
       <a href="/" class="main">Hubert <span>Razack</span></a>
     </div>
     <div class="header-right" id="nav">
-      <a href="/">Home</a>
-      <a href="/#music">Music</a>
+      <a href="/#music">Film scoring</a>
       <a href="/stage">Stage & concert</a>
-      <!--<a href="/recordings">Recordings</a>-->
+      <a href="/singing">Singing</a>
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
     </div>
@@ -107,7 +106,7 @@
     }
   }
 
-  @media only screen and (max-width: 630px) {
+  @media only screen and (max-width: 800px) {
     .header-right {
       display: none;
     }

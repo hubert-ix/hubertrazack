@@ -57,7 +57,7 @@
     transform: rotate(-45deg) translate(-5px, 7px);
   }
 
-  @media only screen and (max-width: 630px) {
+  @media only screen and (max-width: 800px) {
     .mobile-menu-link {
       display: flex;
     }

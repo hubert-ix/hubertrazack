@@ -2,6 +2,7 @@
   import { fade } from "svelte/transition";
   import * as animateScroll from "svelte-scrollto";
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
+    import ContactForm from "./ContactForm.svelte";
 
   function scrollTo(id) {
     animateScroll.scrollTo({element: '#' + id, duration: 0})
@@ -18,7 +19,7 @@
     <div class="overlay"></div>
     <div class="overlay-content">
       <h1>Hubert <span>Razack</span></h1>
-      <div class="subtitle">Toronto-based Composer for Film, TV, and Media</div>
+      <div class="subtitle">Composer for stage, Film, TV, and Media</div>
     </div>
     <div class="arrow-down">
       <div class="scroll" on:click={() => scrollTo('music')}>
@@ -29,7 +30,7 @@
 
   <section class="music" id="music">
     <div class="container">
-      <h2>Music portfolio</h2>
+      <h2>Music Portfolio</h2>
       <iframe
         title="player"
         width="100%"
@@ -47,9 +48,9 @@
       <div class="examples">
         <PortfolioVideo youtubeId="e7yMki4ROYg" title="Opening Theme for TV Show" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/beyond.jpg?updatedAt=1697912419952" />
         <PortfolioVideo youtubeId="4wU7_aJlteE" title="Soaring Romantic Theme" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/landscape.jpg?updatedAt=1697912420224" />
-        <PortfolioVideo youtubeId="5r6BegBtxqw" title="Epic Fantasy Music" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/fantasy.jpg?updatedAt=1714072952209" />
+        <!--<PortfolioVideo youtubeId="5r6BegBtxqw" title="Epic Fantasy Music" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/fantasy.jpg?updatedAt=1714072952209" />-->
         <!--<PortfolioVideo youtubeId="Uus5zIMDB-o" title="Other-wordly Electronic Soundscape" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/analog.jpg?updatedAt=1697912418168" />-->
-        <PortfolioVideo youtubeId="53-c90ccqo0" title="Action Scene" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/action.jpg?updatedAt=1714073060773" />
+        <!--<PortfolioVideo youtubeId="53-c90ccqo0" title="Action Scene" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/action.jpg?updatedAt=1714073060773" />-->
         <PortfolioVideo youtubeId="dM0FUhJiGMU" title="Music for animation/cartoon" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/monsters2.jpg?updatedAt=1714072979197" />
         <!--<PortfolioVideo youtubeId="OHQ9dOduiig" title="Irish Dance Show Premiered in Mexico City" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/rose.jpg?updatedAt=1697912419894" />
         <PortfolioVideo youtubeId="pSkJMl8-MNU" title="Fantasy Atmospheric Ambiance" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/inspirium.jpg?updatedAt=1697912419829" />-->
@@ -61,10 +62,9 @@
     <div class="container flex">
       <div class="left">
         <h2>About Hubert</h2>
-        <p>Hubert Razack is a composer for film, TV, and media based in Toronto. He has been involved in the music industry for the best part of two decades. Born and trained classically in France, he moved in London, UK, to pursue a music career and produced a number of artists as well as his own projects.</p>
-        <p>Relocated in Toronto since 2006, he has composed music for media, concert series, and live shows, as well as continuing his music production business. He completed a post-graduate music composition course at Humber college in 2024.</p>
-        <p>Now focusing on his media composition work and on helping filmmakers fulfill their vision, Hubert is also an accomplished tenor and can be found performing in and around Toronto.</p>
-        <p>You can find out more about Hubert's many projects at <a href="https://www.livingmelody.com" target="new">www.livingmelody.com</a></p>
+        <p>Hubert Razack is a composer for stage, film, TV, and media based in Toronto. With over 20 years of experience in the music industry, Hubert has established himself as a versatile composer, music producer and tenor, crafting and performing beautiful melodies across various genres, from electronic to classical.</p>
+        <p>He has been actively writing trailer and production music for various libraries since 2024. In 2018 he composed the soundtrack for <strong>The boy who became a legend</strong>, a new, emerging genre of kungfu-musical. He wrote the theme music for the <strong>OriginL</strong> concert series in 2016, and was commissioned to create the music for the irish dance show <strong>Once Upon a Rose</strong> which premiered in Mexico City in 2015. He has composed music for media, concert series, and live shows, as well as working on his music production business.</p>
+        <p>Hubert completed a post-graduate music composition course at Humber college in 2024. His teachers included renowned composer Kevin Lau and orchestrator Rebecca Pellet. He resides in Toronto and is regularly performing in and around the city as a classical tenor.</p>
       </div>
       <div class="right">
         <img src="https://ik.imagekit.io/hubertrazack/hubert-razack3.jpg?tr=w-600" alt="Hubert Razack" />
@@ -75,6 +75,7 @@
   <section class="alt contact" id="contact">
     <div class="container">
       <h2>Contact</h2>
+      <ContactForm />
       <div class="contact-icons">
         <a href="mailto:razack.hubert@gmail.com" target="new"><img src="/images/email.png" alt="email" width="80" height="80" /></a>
         <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="80" height="80" /></a>

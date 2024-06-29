@@ -9,10 +9,14 @@
 </script>
 
 
-<div class="item youtube-link" youtubeid={youtubeId} on:click={() => showPopup = true}>
-  <div class="background" style="background-image: url({thumbnailURL})"></div>
+<div class="wrap">
+  <div class="item youtube-link" youtubeid={youtubeId} on:click={() => showPopup = true}>
+    <div class="background" style="background-image: url({thumbnailURL})"></div>
+    <div class="play-button">
+      <img src="/images/play.png" width="60" height="60" alt="Play video" />
+    </div>
+  </div>
   <div class="legend">
-    <img src="/images/play.png" width="60" height="60" alt="Play video" />
     {title}
   </div>
 </div>
@@ -25,10 +29,14 @@
 
 
 <style>
+  .wrap {
+    max-width: 600px;
+  }
+
   .item {
     position: relative;
     overflow: hidden;
-    max-width: 600px;
+    cursor: pointer;
   }
 
   .item .background {
@@ -36,10 +44,10 @@
     background-size: cover;
     background-position: center;
     transition: transform .4s ease, filter .4s ease;
-    height: 200px;
+    height: 300px;
   }
 
-  .item .legend {
+  .item .play-button {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -48,13 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    grid-gap: 15px;
-    opacity: 0;
-    transition: opacity .3s ease;
     filter: brightness(0) invert(1);
-    cursor: pointer;
-    text-align: center;
   }
 
   .item:hover .background {
@@ -62,8 +64,8 @@
     filter: brightness(30%);
   }
 
-  .item:hover .legend {
-    opacity: 1;
+  .legend {
+    margin-top: 1rem;
   }
 
   iframe {
