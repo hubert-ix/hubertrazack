@@ -1,6 +1,5 @@
 import { Resend } from 'resend';
-
-let PUBLIC_RESEND_KEY = 're_KyHWWHi5_7pwbBMJs5ibAyMrVMBFJ6noX';
+import { PUBLIC_RESEND_KEY } from '$env/static/public';
 
 export const actions = {
   default: async ({ request }) => {

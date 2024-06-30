@@ -2,17 +2,11 @@
   import { page } from '$app/stores';
   import { enhance } from '$app/forms';
   import { fade } from 'svelte/transition';
-  let recaptchaSiteKey= "6LccdQQqAAAAADMySBZzeKEpzVZy0eaCmADokblb";
-  // 6LccdQQqAAAAAO1f9_j24IZ09zDGipASS_8Spx0r
-
+  
   let finished = false;
 
   $: if ($page.form?.success) {
     finished = true;
-  }
-
-  function submitForm(token) {
-    console.log("HERE", token)
   }
 </script>
 
@@ -30,13 +24,7 @@
       <div class="form-item">
         <textarea name="message" placeholder="Your message" required></textarea>
       </div>
-      <input 
-        type="submit"
-        value="Send"
-        data-sitekey={recaptchaSiteKey}
-        data-callback='submitForm' 
-        data-action="submit"
-      />
+      <input type="submit" value="Send" />
     </form>
   {:else}
     <p in:fade>Thank you for your message!</p>
