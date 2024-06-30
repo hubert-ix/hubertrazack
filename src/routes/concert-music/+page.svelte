@@ -7,7 +7,7 @@
 
 <div in:fade>
 
-  <section class="small first orchestra">
+  <section class="first orchestra">
     <div class="container">
       <h2>Chamber & Orchestra</h2>
       <div class="items">
@@ -27,23 +27,23 @@
     </div>
   </section>
 
-  <section class="small alt">
+  <section class="alt" id="choral">
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
-        <Piece type="choral" title="The Springtime of Lovers" year="2022" ensemble="For SATB">
+        <Piece type="choral" title="The Springtime of Lovers" year="2022" ensemble="For SATB" slug="springtime-of-lovers">
           An adpatation of a poem by Rumi, which reflects the mystical and symbolic language common in Sufi poetry. It encapsulates his central themes of love, transformation, and the search for the divine. I kept the music very straightforward, with only a slight twist at the end as the "body becomes wholly soul".
         </Piece>
-        <Piece type="choral" title="Wait" year="2021" ensemble="For SATB and piano">
+        <Piece type="choral" title="Wait" year="2021" ensemble="For SATB and piano" slug="wait">
           This poem was written by Amber Earl, a young adult right in the midst of the pandemic. It explores what it felt like to have our life be seemingly on pause, and yet how to keep a spirit of optimism. The music reflects the transition from anxiety to confidence in the future.
         </Piece>
-        <Piece type="choral" title="In the Hour Between" year="2017" ensemble="For SATB and piano">
+        <Piece type="choral" title="In The Hour Between" year="2017" ensemble="For SATB and piano" slug="in-the-hour-between">
           This beautiful poem by Emiko Hsuen describes what happens when a child goes through things they cannot understand, and how ultimately our ever present inner child needs the embrace of self love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
         </Piece>
-        <Piece type="choral" title="Spring's Saraband" year="2017" ensemble="For SATB and piano">
+        <Piece type="choral" title="Spring's Saraband" year="2017" ensemble="For SATB and piano" slug="springs-saraband">
           Written for a concert at the Lawrence Park Community Church, celebrating Canadian artists. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
         </Piece>
-        <Piece type="choral" title="God's Love, a mini-oratorio" year="2016" ensemble="For SATB, tenor soloist, and organ">
+        <Piece type="choral" title="God's Love, a mini-oratorio" year="2016" ensemble="For SATB, tenor soloist, and organ" slug="gods-love">
           Since having started my vocal training I have been fascinated by sacred music, and oratorios especially. My first exposure to choral music was the first movement of the St John's Passion by Bach - to this new one of my all-time favorite choral pieces. I wrote this mini-oratorio for a fundraiser concert and based it on text from the old and new testament.
         </Piece>
       </div>
@@ -51,10 +51,10 @@
     </div>
   </section>
 
-  <section class="small choir">
+  <section class="choir" id="vocal">
     <div class="container">
       <h2>Vocal</h2>
-      <div class="items">
+      <div class="items small">
         <Piece type="vocal" title="Awake to Smile" year="2022">
           Art song (poem by Robert William Service) - high/medium voice
         </Piece>
@@ -93,12 +93,13 @@
   .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 6rem;
-    grid-row-gap: 2rem;
+    grid-column-gap: 12rem;
+    grid-row-gap: 6rem;
   }
 
-  .items.onecol {
-    grid-template-columns: 1fr;
+  .items.small {
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
   }
 
   section.orchestra {

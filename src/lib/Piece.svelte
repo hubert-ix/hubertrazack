@@ -1,12 +1,15 @@
 <script>
+    import ConditionalLink from "./ConditionalLink.svelte";
+
   export let title;
   export let year;
   export let type;
   export let ensemble;
+  export let slug;
 </script>
 
 
-<div class="wrap {type}">
+<ConditionalLink class="wrap {type}" href="/concert-music/pieces/{slug}" condition={slug}>
   <h3>{title} <span class="year">({year})</span></h3>
   {#if ensemble}
     <div class="ensemble">
@@ -16,7 +19,7 @@
   <div class="description">
     <slot />
   </div>
-</div>
+</ConditionalLink>
 
 
 <style>
@@ -27,23 +30,14 @@
   }
 
   .ensemble {
-    color: #aaa;
-  }
-
-  .orchestra h3 {
-    color: #eab58c;
-  }
-
-  .choral h3 {
-    color: #d09adf;
-  }
-
-  .vocal h3 {
-    color: #bde297;
+    color: #fff;
   }
 
   .description {
-    font-size: 0.9rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 1.9;
+    opacity: 0.7;
   }
 </style>

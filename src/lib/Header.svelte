@@ -12,7 +12,7 @@
     </div>
     <div class="header-right" id="nav" on:click={() => mobile = false}>
       <a href="/#music">Film scoring</a>
-      <a href="/stage">Stage & concert</a>
+      <a href="/concert-music">Stage & concert</a>
       <a href="/singing">Singing</a>
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
