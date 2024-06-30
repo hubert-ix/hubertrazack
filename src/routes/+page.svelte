@@ -2,7 +2,7 @@
   import { fade } from "svelte/transition";
   import * as animateScroll from "svelte-scrollto";
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
-    import ContactForm from "./ContactForm.svelte";
+  import ContactForm from "./ContactForm.svelte";
 
   function scrollTo(id) {
     animateScroll.scrollTo({element: '#' + id, duration: 0})
@@ -75,14 +75,16 @@
   <section class="alt contact" id="contact">
     <div class="container">
       <h2>Contact</h2>
-      
-      <div class="contact-icons">
-        <a href="mailto:razack.hubert@gmail.com" target="new"><img src="/images/email.png" alt="email" width="80" height="80" /></a>
-        <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="80" height="80" /></a>
-        <a href="https://www.facebook.com/hubert.razack" target="new"><img src="/images/facebook.png" alt="Facebook" width="80" height="80" /></a>
-        <a href="https://www.youtube.com/@hubertrazack" target="new"><img src="/images/youtube.png" alt="YouTube" width="80" height="80" /></a>
-        <a href="https://open.spotify.com/artist/2nGBIJVBQDAVBjfFivmfgB" target="new"><img src="/images/spotify.png" alt="Spotify" width="80" height="80" /></a>
-        <a href="https://music.apple.com/ca/artist/hubert-razack/1054303465" target="new"><img src="/images/apple.png" alt="Apple Music" width="80" height="80" /></a>
+      <div class="contact-grid">
+        <ContactForm />
+        <div class="contact-icons">
+          <a href="mailto:razack.hubert@gmail.com" target="new"><img src="/images/email.png" alt="email" width="80" height="80" /></a>
+          <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="80" height="80" /></a>
+          <a href="https://www.facebook.com/hubert.razack" target="new"><img src="/images/facebook.png" alt="Facebook" width="80" height="80" /></a>
+          <a href="https://www.youtube.com/@hubertrazack" target="new"><img src="/images/youtube.png" alt="YouTube" width="80" height="80" /></a>
+          <a href="https://open.spotify.com/artist/2nGBIJVBQDAVBjfFivmfgB" target="new"><img src="/images/spotify.png" alt="Spotify" width="80" height="80" /></a>
+          <a href="https://music.apple.com/ca/artist/hubert-razack/1054303465" target="new"><img src="/images/apple.png" alt="Apple Music" width="80" height="80" /></a>
+        </div>
       </div>
     </div>
   </section>
@@ -169,6 +171,23 @@
     grid-gap: 20px;
   }
 
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+
+  .contact-icons {
+    width: 400px;
+  }
+
+  .contact-icons img {
+    min-width: 80px;
+    margin-right: 30px;
+    filter: grayscale(40%);
+    margin-bottom: 1rem;
+  }
+
   @media only screen and (max-width: 1600px) {
     section.hero {
       height: 800px;
@@ -184,6 +203,10 @@
   @media only screen and (max-width: 1000px) {
     .examples {
       grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-grid {
+      grid-template-columns: 1fr;
     }
 
   }
