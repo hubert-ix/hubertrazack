@@ -63,6 +63,7 @@
     border: none;
     cursor: pointer;
     transition: opacity 0.4s;
+    width: auto;
   }
 
   input[type="submit"]:hover {

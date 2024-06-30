@@ -1,12 +1,7 @@
 <script>
   import BurgerButton from '$lib/BurgerButton.svelte';
-  import * as animateScroll from "svelte-scrollto";
 
   let mobile = false;
-
-  function scrollTo(id) {
-    animateScroll.scrollTo({element: '#' + id, duration: 0})
-  }
 </script>
 
 <header id="home" class:mobile={mobile}>
@@ -15,7 +10,7 @@
       <BurgerButton on:clicked={() => mobile = !mobile} />
       <a href="/" class="main">Hubert <span>Razack</span></a>
     </div>
-    <div class="header-right" id="nav">
+    <div class="header-right" id="nav" on:click={() => mobile = false}>
       <a href="/#music">Film scoring</a>
       <a href="/stage">Stage & concert</a>
       <a href="/singing">Singing</a>
@@ -100,15 +95,15 @@
     padding-bottom: 15px;
   }
 
-  @media only screen and (max-width: 720px) {
-    .header-right a {
-      margin-left: 20px;
-    }
-  }
-
   @media only screen and (max-width: 800px) {
     .header-right {
       display: none;
+    }
+
+    .header-right a {
+      display: block;
+      margin-left: 20px;
+      padding: 0.5rem;
     }
   }
 </style>
