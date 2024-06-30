@@ -19,7 +19,7 @@
     <div class="overlay"></div>
     <div class="overlay-content">
       <h1>Hubert <span>Razack</span></h1>
-      <div class="subtitle">Composer for stage, Film, TV, and Media</div>
+      <div class="subtitle">Composer for stage, Film/TV, and Media</div>
     </div>
     <div class="arrow-down">
       <div class="scroll" on:click={() => scrollTo('music')}>
