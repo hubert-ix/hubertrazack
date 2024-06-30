@@ -9,7 +9,7 @@
     Written for a concert at the Lawrence Park Community Church, celebrating Canadian artists. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
   </div>
   
-  <div class="columns">
+  <div class="piece-columns">
     <div class="image">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bliss_Carman%2C_1861-1929_LCCN2001704050.jpg/800px-Bliss_Carman%2C_1861-1929_LCCN2001704050.jpg" width="300" alt="Bliss Carman" />
     </div>
@@ -75,8 +75,5 @@
     max-width: 800px;
   }
 
-  .columns {
-    display: flex;
-    grid-gap: 6rem;
-  }
+  
 </style>

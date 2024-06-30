@@ -9,7 +9,7 @@
     An adpatation of a poem by Rumi, which reflects the mystical and symbolic language common in Sufi poetry. It encapsulates his central themes of love, transformation, and the search for the divine. I kept the music very straightforward, with only a slight twist at the end as <em>"the body becomes wholly soul"</em>.
   </div>
   
-  <div class="columns">
+  <div class="piece-columns">
     <img src="https://www.worldhistory.org/img/r/p/1000x1200/12298.jpg.webp?v=1697081403" alt="Rumi" width="400" />
     <div class="lyrics">
       The springtime of Lovers has come,<br />
@@ -31,10 +31,5 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
     max-width: 800px;
-  }
-
-  .columns {
-    display: flex;
-    grid-gap: 6rem;
   }
 </style>

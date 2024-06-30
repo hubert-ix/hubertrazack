@@ -142,6 +142,11 @@ h3 {
   color: #bde297;
 }
 
+.piece-columns {
+  display: flex;
+  grid-gap: 6rem;
+}
+
 
 @media only screen and (max-width: 1300px) {
   .container.flex {
@@ -163,5 +168,10 @@ h3 {
   .container.flex {
     flex-direction: column;
     grid-gap: 40px;
+  }
+
+  .piece-columns {
+    flex-direction: column-reverse;
+    grid-gap: 2rem;
   }
 }
