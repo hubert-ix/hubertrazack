@@ -12,12 +12,13 @@ export const actions = {
     let subject = "Enquiry from " + name;
     let html = '<p>From: ' + name + ' (' + email +')</p>';
     html += '<p>' + message + '</p>';
+    html = nl2br(html);
     const resend = new Resend(PUBLIC_RESEND_KEY);
     const { data, error } = await resend.emails.send({
       from: 'Website <noreply@hubertrazack.com>',
       to: ['razack.hubert@gmail.com'],
       subject,
-      html: html,
+      html,
     });
     if (error) {
       console.error("ERROR SENDING EMAIL", error);
@@ -25,3 +26,11 @@ export const actions = {
     return { success: true };
   },
 };
+
+function nl2br (str, is_xhtml) {
+  if (typeof str === 'undefined' || str === null) {
+      return '';
+  }
+  var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+  return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+}
