@@ -41,10 +41,10 @@
           This beautiful poem by Emiko Hsuen describes what happens when a child goes through things they cannot understand, and how ultimately our ever present inner child needs the embrace of self love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
         </Piece>
         <Piece type="choral" title="Spring's Saraband" year="2017" ensemble="For SATB and piano" slug="springs-saraband">
-          Written for a concert at the Lawrence Park Community Church, celebrating Canadian artists. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
+          Written for a concert celebrating Canadian artists at the Lawrence Park Community Church. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
         </Piece>
         <Piece type="choral" title="God's Love, a mini-oratorio" year="2016" ensemble="For SATB, tenor soloist, and organ" slug="gods-love">
-          Since having started my vocal training I have been fascinated by sacred music, and oratorios especially. My first exposure to choral music was the first movement of the St John's Passion by Bach - to this new one of my all-time favorite choral pieces. I wrote this mini-oratorio for a fundraiser concert and based it on text from the old and new testament.
+          Since having started my vocal training I have been fascinated by sacred music, and oratorios especially. My first exposure to choral music was the first movement of the St John's Passion by Bach - to this day one of my all-time favorite choral pieces. I wrote this mini-oratorio for a fundraiser concert and based it on text from the old and new testament.
         </Piece>
       </div>
       <!--<SingingVideo youtubeId="PFyAwRzXNTQ" title="Gos'd Love (mini-oratorio for SATB, tenor soloist, and organ)" thumbnailURL="https://ik.imagekit.io/hubertrazack/singing/thumbnail2.jpg?updatedAt=1719693965642&tr=w-800" />-->

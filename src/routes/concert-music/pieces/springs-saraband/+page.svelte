@@ -6,7 +6,7 @@
 <PieceFull title="Spring's Saraband" date="2017" ensemble="SATB and Piano" duration="4'30">
 
   <div class="description">
-    Written for a concert at the Lawrence Park Community Church, celebrating Canadian artists. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
+    Written for a concert celebrating Canadian artists at the Lawrence Park Community Church. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
   </div>
   
   <div class="piece-columns">
