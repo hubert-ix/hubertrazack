@@ -9,8 +9,15 @@
 </script>
 
 
-<ConditionalLink class="wrap {type}" href="/concert-music/pieces/{slug}" condition={slug}>
-  <h3>{title} <span class="year">({year})</span></h3>
+<div>
+  <ConditionalLink class="wrap {type}" href="/concert-music/pieces/{slug}" condition={slug}>
+    <h3>
+      {title} <span class="year">({year})</span>
+      {#if slug}
+        <img src="/images/arrow-right-purple.png" alt="Read more" width="14" />
+      {/if}
+    </h3>
+  </ConditionalLink>
   {#if ensemble}
     <div class="ensemble">
       {ensemble}
@@ -19,7 +26,7 @@
   <div class="description">
     <slot />
   </div>
-</ConditionalLink>
+</div>
 
 
 <style>
@@ -39,5 +46,10 @@
     font-weight: 300;
     line-height: 1.9;
     opacity: 0.7;
+  }
+
+  h3 img {
+    position: relative;
+    top: 2px;
   }
 </style>

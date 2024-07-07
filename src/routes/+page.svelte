@@ -2,6 +2,7 @@
   import { fade } from "svelte/transition";
   import * as animateScroll from "svelte-scrollto";
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
+  import Testimonial from "$lib/Testimonial.svelte";
   import ContactForm from "./ContactForm.svelte";
 
   function scrollTo(id) {
@@ -42,30 +43,37 @@
     </div>
   </section>
 
+  <!--
   <section class="alt">
     <div class="container">
       <h2>Videos</h2>
       <div class="examples">
         <PortfolioVideo youtubeId="e7yMki4ROYg" title="Opening Theme for TV Show" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/beyond.jpg?updatedAt=1697912419952" />
         <PortfolioVideo youtubeId="4wU7_aJlteE" title="Soaring Romantic Theme" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/landscape.jpg?updatedAt=1697912420224" />
-        <!--<PortfolioVideo youtubeId="5r6BegBtxqw" title="Epic Fantasy Music" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/fantasy.jpg?updatedAt=1714072952209" />-->
-        <!--<PortfolioVideo youtubeId="Uus5zIMDB-o" title="Other-wordly Electronic Soundscape" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/analog.jpg?updatedAt=1697912418168" />-->
-        <!--<PortfolioVideo youtubeId="53-c90ccqo0" title="Action Scene" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/action.jpg?updatedAt=1714073060773" />-->
         <PortfolioVideo youtubeId="dM0FUhJiGMU" title="Music for animation/cartoon" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/monsters2.jpg?updatedAt=1714072979197" />
-        <!--<PortfolioVideo youtubeId="OHQ9dOduiig" title="Irish Dance Show Premiered in Mexico City" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/rose.jpg?updatedAt=1697912419894" />
-        <PortfolioVideo youtubeId="pSkJMl8-MNU" title="Fantasy Atmospheric Ambiance" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/inspirium.jpg?updatedAt=1697912419829" />-->
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="testimonials">
+        <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
+        <!--<Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />-->
+        <Testimonial authorName="Francesca Blandizzi" authorTitle="Singer/songwriter" text="The process from beginning to end was smooth, safe, clear, flowing, positive, creatively charged, inspiring, joyful and customized to how I work best. Hubert's extensive background in music production, playing multiple instruments and being professionally trained as a singer has helped me immensely to take my singing, harmonies and songwriting to a new level." />
       </div>
     </div>
   </section>
     
-  <section class="about" id="about">
+  <section class="about alt" id="about">
     <div class="container flex">
       <div class="left">
         <h2>About Hubert</h2>
         <p>Hubert Razack is a composer for stage, film/TV, and media based in Toronto. </p>
-        <p>He has been actively writing trailer and production music for various libraries since 2024 and was one of the 10 featured artists on TAXI.com in July 2024. In 2018 he composed the soundtrack for <strong>The boy who became a legend</strong>, a new, emerging genre of kungfu-musical. He wrote the theme music for the <strong>OriginL</strong> concert series in 2016, and was commissioned to create the music for the irish dance show <strong>Once Upon a Rose</strong> which premiered in Mexico City in 2015.</p>
+        <p>He has been actively writing trailer and production music for various libraries since 2024 and was one of the 10 featured artists on TAXI.com in July 2024. In 2018 he composed the soundtrack for <strong>The Boy Who Became a Legend</strong>, a new, emerging genre of kungfu-musical. He wrote the theme music for the <strong>OriginL</strong> concert series in 2016, and was commissioned to create the music for the irish dance show <strong>Once Upon a Rose</strong> which premiered in Mexico City in 2015.</p>
         <p>A versatile musician and collaborator, Hubert has written several choral, chamber pieces, and art songs that premiered throughout the world. He is also a professional tenor and has performed in several operas, oratorios and recitals in and around Toronto. As a music producer with over 20 years of experience in the music industry, he has produced records and played for several independent artists including UK-based rock band <strong>The Audio Journal</strong> and Canadian singer songwriter <strong>Caroline Colantonio</strong>.</p>
-        <p>Classically trained in France, Hubert completed a post-graduate music composition course with honours at Humber college in 2024. His teachers included renowned composer Kevin Lau and orchestrator Rebecca Pellet. He resides in Toronto where he is also practicing and teaching Tai Chi Chuan and Chi Kung.</p>
+        <p>Classically trained in France, Hubert completed a post-graduate music composition course with honours at Humber college in 2024. His teachers included renowned composer Kevin Lau and orchestrator Rebecca Pellet. He resides in Toronto where he enjoys practicing and teaching the art of Chi Kung.</p>
       </div>
       <div class="right">
         <img src="https://ik.imagekit.io/hubertrazack/hubert-razack3.jpg?tr=w-600" alt="Hubert Razack" />
@@ -73,7 +81,7 @@
     </div>
   </section>
 
-  <section class="alt contact" id="contact">
+  <section class="contact" id="contact">
     <div class="container">
       <h2>Contact</h2>
       <div class="contact-grid">
@@ -122,6 +130,7 @@
     background-size: cover;
     background: #000 url(/images/hubert-test.jpg) no-repeat;
     background-size: 577px 777px;
+    background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(0,0,0,1) 100%, rgba(52,53,54,1) 100%);
     */
     background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4a.jpg?updatedAt=1717369192272) no-repeat;
     background-size: cover;
@@ -170,6 +179,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  section.testimonials {
+    padding-top: 0;
+  }
+
+  div.testimonials {
+    display: grid;
+    grid-gap: 4rem;
   }
 
   .contact-grid {

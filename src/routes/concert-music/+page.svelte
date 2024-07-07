@@ -7,27 +7,7 @@
 
 <div in:fade>
 
-  <section class="first orchestra">
-    <div class="container">
-      <h2>Chamber & Orchestra</h2>
-      <div class="items">
-        <Piece type="orchestra" title="Adventure 84!" year="2024" ensemble="For full orchestra">
-          This is my homage to the golden age of orchestral adventure film music. A 5 minute piece that could be played after our young heros have saved the day and as the credits roll.
-        </Piece>
-        <Piece type="orchestra" title="The Edge of Spring" year="2024" ensemble="For string quartet">
-          This piece evokes the time of the year where life has finished blooming and is now ready to take on the world.
-        </Piece>
-        <Piece type="orchestra" title="Gnossienne No. 1 (Arrangement)" year="2024" ensemble="For full orchestra">
-          Erik Satie's Gnossiennes are a staple of contemporary piano music, and it was a thrill to write an arrangement of the first movement for full orchestra. I did my best to preserve the quirky and mystical aspect of the music while using all the colors available in the orchestra.
-        </Piece>
-        <Piece type="orchestra" title="Inspirium" year="2023" ensemble="For contemporary ensemble">
-          This is a throwback to the age of vinyl records, where often contemporary composers would write a piece of music in 2 movements, for side A and B. This is a piece for an unusual ensemble: piano, acoustic, bass, and electric guitar, flute, harp, violin, and percussions.
-        </Piece>
-      </div>
-    </div>
-  </section>
-
-  <section class="alt" id="choral">
+  <section class="first alt" id="choral">
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
@@ -51,7 +31,27 @@
     </div>
   </section>
 
-  <section class="choir" id="vocal">
+  <section class="alt orchestra">
+    <div class="container">
+      <h2>Chamber & Orchestra</h2>
+      <div class="items">
+        <Piece type="orchestra" title="Adventure 84!" year="2024" ensemble="For full orchestra">
+          This is my homage to the golden age of orchestral adventure film music. A 5 minute piece that could be played after our young heros have saved the day and as the credits roll.
+        </Piece>
+        <Piece type="orchestra" title="The Edge of Spring" year="2024" ensemble="For string quartet">
+          This piece evokes the time of the year where life has finished blooming and is now ready to take on the world.
+        </Piece>
+        <Piece type="orchestra" title="Gnossienne No. 1 (Arrangement)" year="2024" ensemble="For full orchestra">
+          Erik Satie's Gnossiennes are a staple of contemporary piano music, and it was a thrill to write an arrangement of the first movement for full orchestra. I did my best to preserve the quirky and mystical aspect of the music while using all the colors available in the orchestra.
+        </Piece>
+        <Piece type="orchestra" title="Inspirium" year="2023" ensemble="For contemporary ensemble">
+          This is a throwback to the age of vinyl records, where often contemporary composers would write a piece of music in 2 movements, for side A and B. This is a piece for an unusual ensemble: piano, acoustic, bass, and electric guitar, flute, harp, violin, and percussions.
+        </Piece>
+      </div>
+    </div>
+  </section>
+
+  <section class="vocal alt" id="vocal">
     <div class="container">
       <h2>Vocal</h2>
       <div class="items small">
