@@ -27,6 +27,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    padding-top: 30px;
   }
 
   .wrap::before {
@@ -37,7 +38,7 @@
     width: 140px;
     height: 140px;
     left: -20px;
-    top: -60px;
+    top: -30px;
     opacity: 0.2;
   }
 

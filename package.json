@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"siema": "^1.5.1",
 		"svelte": "^4.2.7",
 		"svelte-scrollto": "^0.2.0",
 		"svelte-youtube-embed": "^0.2.3",

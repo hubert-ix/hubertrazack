@@ -4,6 +4,7 @@
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
   import Testimonial from "$lib/Testimonial.svelte";
   import ContactForm from "./ContactForm.svelte";
+    import Carousel from "../lib/Carousel.svelte";
 
   function scrollTo(id) {
     animateScroll.scrollTo({element: '#' + id, duration: 0})
@@ -58,11 +59,11 @@
 
   <section class="testimonials">
     <div class="container">
-      <div class="testimonials">
+      <Carousel>
         <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
         <Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />
         <Testimonial authorName="Francesca Blandizzi" authorTitle="Singer/songwriter" text="The process from beginning to end was smooth, safe, clear, flowing, positive, creatively charged, inspiring, joyful and customized to how I work best. Hubert's extensive background in music production, playing multiple instruments and being professionally trained as a singer has helped me immensely to take my singing, harmonies and songwriting to a new level." />
-      </div>
+      </Carousel>
     </div>
   </section>
     
@@ -182,11 +183,6 @@
 
   section.testimonials {
     padding-top: 0;
-  }
-
-  div.testimonials {
-    display: grid;
-    grid-gap: 4rem;
   }
 
   .contact-grid {
