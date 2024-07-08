@@ -127,24 +127,25 @@
 	}
 
 	.dots {
-    display: flex;
+    display: none;
     align-items: center;
-    justify-content: left;
-    padding-top: 20px;
+    justify-content: center;
+    padding-top: 40px;
+		opacity: 0.4;
   }
 
   .dot {
-    width: 8px;
-    height: 8px;
-    background-color: rgba(34,34,34,0.4);
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
     border-radius: 50%;
-    margin: 0 3px;
+    margin: 0 5px;
     cursor: pointer;
     transition: background-color 100ms,color 100ms;
   }
 
   .dot.selected {
-    background-color: #000;
+    background-color: rgb(221 141 54);
   }
 
 	.controls {

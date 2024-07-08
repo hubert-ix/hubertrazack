@@ -16,6 +16,7 @@
       <a href="/singing">Singing</a>
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
+      <a href="https://www.instagram.com/hubert.razack" target="new" class="icon"><img src="/images/instagram.png" alt="Instagram" width="30" height="30" /></a>
     </div>
   </div>
 </header>
@@ -51,12 +52,25 @@
     font-size: 1.1rem;
   }
 
+  header a.icon {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    opacity: 0.8;
+  }
+
   header a span {
     color: rgb(221 141 54);
   }
 
   header a:hover {
     border-color: #999;
+  }
+
+  header a.icon:hover {
+    border: none;
+    border-color: transparent;
+    text-decoration: none;
   }
 
   .header {
@@ -79,6 +93,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding-right: 60px;
   }
 
   .header-right a {
