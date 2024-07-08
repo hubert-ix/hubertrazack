@@ -4,9 +4,9 @@
 	
 	export let perPage = 1
 	export let loop = true
-	export let autoplay = 0
+	export let autoplay = 10000
 	export let duration = 500
-	export let easing = 'ease-out'
+	export let easing =  "cubic-bezier(.42,0,.58,1)"
 	export let startIndex = 0
 	export let draggable = true
 	export let multipleDrag = true	
