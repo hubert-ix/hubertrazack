@@ -11,15 +11,20 @@
   
   <div class="piece-columns">
     <img src="https://www.worldhistory.org/img/r/p/1000x1200/12298.jpg.webp?v=1697081403" alt="Rumi" width="400" />
-    <div class="lyrics">
-      The springtime of Lovers has come,<br />
-      that this dust bowl may become a garden;<br />
-      the proclamation of heaven has come,<br />
-      that the bird of the soul may rise in flight.<br />
-      The sea becomes full of pearls,<br />
-      the salt marsh becomes sweet as kauthar,<br />
-      the stone becomes a ruby from the mine,<br />
-      the body becomes wholly soul.
+    <div>
+      <div class="lyrics">
+        The springtime of Lovers has come,<br />
+        that this dust bowl may become a garden;<br />
+        the word of heaven has come,<br />
+        that the bird of the soul may rise in flight.<br />
+        the sea marsh becomes sweet as light,<br />
+        the stone becomes a ruby from the mine,<br />
+        the body becomes wholly soul.<br />
+        For only from the heart can you touch the sky
+      </div>
+      <div class="piece-author">
+        Poem by Rumi
+      </div>
     </div>
   </div>
 

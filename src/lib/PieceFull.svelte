@@ -1,5 +1,6 @@
 <script>
   import InfoLine from "$lib/InfoLine.svelte";
+  import BackLink from "$lib/BackLink.svelte";
 
   export let title;
   export let date;
@@ -9,14 +10,16 @@
 
 
 <div class="back-button">
-  <a href="/concert-music#choral">&lt; Back to projects</a>
+  <BackLink url="/concert-music" />
+  <a href="/concert-music#choral">Back to projects</a>
 </div>
 
-<h2>{title}</h2>
-
-<InfoLine label="Date" value={date} />
-<InfoLine label="Ensemble" value={ensemble} />
-<InfoLine label="Duration" value={duration} />
+<div class="info">
+  <InfoLine label="Title" value={title} style="large" />
+  <InfoLine label="Date" value={date} />
+  <InfoLine label="Ensemble" value={ensemble} />
+  <InfoLine label="Duration" value={duration} />
+</div>
 
 <slot />
 
@@ -24,22 +27,18 @@
 <style>
   .back-button {
     margin-bottom: 1rem;
+    display: flex;
+    grid-gap: 0.5rem;
+    align-items: center;
   }
 
   .back-button a {
-    opacity: 0.5;
+    opacity: 0.6;
     text-decoration: none;
     color: #000;
   }
 
-  h2 {
-    color: #d09adf;
-    border: none;
-  }
-
-  .description {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    max-width: 800px;
+  .info {
+    padding-top: 1rem;
   }
 </style>
