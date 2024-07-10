@@ -5,7 +5,7 @@
   export let year;
   export let type;
   export let ensemble;
-  export let slug;
+  export let slug = null;
 </script>
 
 

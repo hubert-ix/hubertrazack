@@ -140,6 +140,10 @@
     .mobile-social img {
       display: block;
     }
+
+    a.icon {
+      display: none;
+    }
   }
 
   @media only screen and (max-width: 450px) {
