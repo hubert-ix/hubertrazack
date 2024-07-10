@@ -18,6 +18,9 @@
       <a href="/#contact">Contact</a>
       <a href="https://www.instagram.com/hubert.razack" target="new" class="icon"><img src="/images/instagram.png" alt="Instagram" width="30" height="30" /></a>
     </div>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="30" height="30" /></a>
+    </div>
   </div>
 </header>
 
@@ -110,7 +113,11 @@
     padding-bottom: 15px;
   }
 
-  @media only screen and (max-width: 800px) {
+  .mobile-social {
+    display: none;
+  }
+
+  @media only screen and (max-width: 850px) {
     .header-right {
       display: none;
     }
@@ -119,6 +126,25 @@
       display: block;
       margin-left: 20px;
       padding: 0.5rem;
+    }
+
+    .mobile-social {
+      display: block;
+    }
+
+    .mobile-social a {
+      padding: 0;
+      border: none;
+    }
+
+    .mobile-social img {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    a.main {
+      display: none;
     }
   }
 </style>
