@@ -119,19 +119,13 @@
 
   section.hero {
     position: relative;
-    /*height: 100%;*/
-    height: 1200px;
+    height: 760px;
+    max-width: 1600px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /*
-    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack2c.jpg?updatedAt=1716524467747) no-repeat;
-    background-size: cover;
-    background: #000 url(/images/hubert-test.jpg) no-repeat;
-    background-size: 577px 777px;
-    background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(0,0,0,1) 100%, rgba(52,53,54,1) 100%);
-    */
     background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4a.jpg?updatedAt=1717369192272) no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -200,12 +194,6 @@
     margin-right: 30px;
     filter: grayscale(40%);
     margin-bottom: 1rem;
-  }
-
-  @media only screen and (max-width: 1600px) {
-    section.hero {
-      height: 800px;
-    }
   }
 
   @media only screen and (max-width: 1300px) {

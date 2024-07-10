@@ -5,7 +5,7 @@
 </script>
 
 <header id="home" class:mobile={mobile}>
-  <div class="container full header">
+  <div class="container header">
     <div class="header-left">
       <BurgerButton on:clicked={() => mobile = !mobile} />
       <a href="/" class="main">Hubert <span>Razack</span></a>

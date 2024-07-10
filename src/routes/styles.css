@@ -51,10 +51,6 @@ strong {
   grid-gap: 200px;
 }
 
-.container.full {
-  max-width: 100%;
-}
-
 section {
   padding: 100px 0;
 }
