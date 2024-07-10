@@ -5,7 +5,7 @@
 
 <div class="backlink">
   <a href={url} class="backlink">
-    <img src="/images/back-arrow-black.png" width="14" alt="Back" />
+    <img src="/images/back-arrow-white.png" width="14" alt="Back" />
   </a>
 </div>
 
@@ -19,12 +19,11 @@
     align-items: center;
     border-radius: 50%;
     color: #212121;
-    background-color: #ddd;
-    transition: background-color .4s;
+    background-color: rgb(221 141 54);
+    transition: opacity .4s;
   }
 
   a.backlink:hover {
-    opacity: 1;
-    background-color: #bdbdbd;
+    opacity: 0.6;
   }
 </style>

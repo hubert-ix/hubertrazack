@@ -31,5 +31,6 @@
     font-size: 0.9rem;
     opacity: 0.8;
     padding-left: 20px;
+    color: rgb(221 141 54);
   }
 </style>

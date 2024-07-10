@@ -14,8 +14,9 @@
   <a href="/concert-music#choral">Back to projects</a>
 </div>
 
+<h2>{title}</h2>
+
 <div class="info">
-  <InfoLine label="Title" value={title} style="large" />
   <InfoLine label="Date" value={date} />
   <InfoLine label="Ensemble" value={ensemble} />
   <InfoLine label="Duration" value={duration} />
@@ -25,8 +26,14 @@
 
 
 <style>
+  h2 {
+    color: rgb(221 141 54);
+    border: none;
+    margin-bottom: 2rem;
+  }
+
   .back-button {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     display: flex;
     grid-gap: 0.5rem;
     align-items: center;
@@ -39,6 +46,7 @@
   }
 
   .info {
-    padding-top: 1rem;
+    padding-left: 1rem;
+    border-left: solid 2px rgb(243, 202, 158);
   }
 </style>

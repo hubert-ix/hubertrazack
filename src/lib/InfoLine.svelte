@@ -6,12 +6,17 @@
 
 
 <div class="wrap {style}">
-  <div class="label">
-    {label}:
-  </div>
+
+  {#if label}
+    <div class="label">
+      {label}:
+    </div>
+  {/if}
+
   <div class="value">
     {value}
   </div>
+
 </div>
 
 
@@ -19,7 +24,7 @@
   .wrap {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
   }
 
   .label {
@@ -32,8 +37,10 @@
 
   .large .value {
     opacity: 1;
-    font-size: 1.8rem;
-    color: #b642d6;
+    font-size: 2rem;
+    line-height: 1;
+    color: rgb(221 141 54);
     font-weight: 500;
+    margin-bottom: 1rem;
   }
 </style>
