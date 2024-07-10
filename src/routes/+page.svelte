@@ -297,4 +297,11 @@
       margin-right: 10px;
     }
   }
+
+  @media only screen and (max-width: 520px) {
+    .hero-content {
+      top: 180px;
+      left: 0px;
+    }
+  }
 </style>
