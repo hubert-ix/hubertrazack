@@ -6,7 +6,7 @@
 <PieceFull title="Wait" date="2021" ensemble="SATB and piano" duration="1'30">
 
   <div class="description">
-    This poem was written by Amber Earl, a young adult right in the midst of the pandemic. It explores what it felt like to have our life be seemingly on pause, and yet how to keep a spirit of optimism. The music reflects the transition from anxiety to confidence in the future.
+    This poem was written by Canadian author Amber Earl right in the midst of the pandemic. It explores what it felt like to have our life be seemingly on pause, and yet how to keep a spirit of optimism. The music reflects the transition from anxiety to confidence in the future.
   </div>
 
   <div class="piece-columns">

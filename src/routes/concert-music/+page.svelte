@@ -7,7 +7,7 @@
 
 <div in:fade>
 
-  <section class="first alt" id="choral">
+  <section class="first alt choral" id="choral">
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
@@ -15,10 +15,10 @@
           An adpatation of a poem by Rumi, which reflects the mystical and symbolic language common in Sufi poetry. It encapsulates his central themes of love, transformation, and the search for the divine. I kept the music very straightforward, with only a slight twist at the end as the "body becomes wholly soul".
         </Piece>
         <Piece type="choral" title="Wait" year="2021" ensemble="For SATB and piano" slug="wait">
-          This poem was written by Amber Earl, a young adult right in the midst of the pandemic. It explores what it felt like to have our life be seemingly on pause, and yet how to keep a spirit of optimism. The music reflects the transition from anxiety to confidence in the future.
+          This poem was written by Canadian author Amber Earl right in the midst of the pandemic. It explores what it felt like to have our life be seemingly on pause, and yet how to keep a spirit of optimism. The music reflects the transition from anxiety to confidence in the future.
         </Piece>
         <Piece type="choral" title="In The Hour Between" year="2017" ensemble="For SATB and piano" slug="in-the-hour-between">
-          This beautiful poem by Emiko Hsuen describes what happens when a child goes through things they cannot understand, and how ultimately our ever present inner child needs the embrace of self love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
+          This beautiful poem by Emiko Hsuen describes what occurs when a child goes through things they cannot understand, and how ultimately our ever-present inner child needs the embrace of a higher love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
         </Piece>
         <Piece type="choral" title="Spring's Saraband" year="2017" ensemble="For SATB and piano" slug="springs-saraband">
           Written for a concert celebrating Canadian artists at the Lawrence Park Community Church. I picked this lovely poem by Bliss Carman, a very prolific Canadian poet. The poem is full of vivid imagery of natures, with a sense of enthusiasm which I tried to convey in the music.
@@ -94,7 +94,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 12rem;
-    grid-row-gap: 6rem;
+    grid-row-gap: 4rem;
   }
 
   .items.small {
@@ -102,16 +102,17 @@
     grid-row-gap: 2rem;
   }
 
-  section.orchestra {
+  section.vocal {
     background-image: url(https://ik.imagekit.io/hubertrazack/orchestra.jpg?updatedAt=1716527423255);
     background-size: cover;
     background-position: 0 -350px;
   }
 
-  section.choir {
-    background-image: url(https://ik.imagekit.io/hubertrazack/choir.jpg?updatedAt=1716527531181);
+  section.choral {
+    background-image: url(https://ik.imagekit.io/hubertrazack/choral.jpg?updatedAt=1720583812927);
     background-size: cover;
-    background-position: 0 -100px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   @media only screen and (max-width: 800px) {

@@ -4,10 +4,10 @@
 </script>
 
 
-<PieceFull title="In The Hour Between" date="2018" ensemble="SATB and Piano" duration="3'30">
+<PieceFull title="In The Hour Between" date="2018" ensemble="SATB and Piano" duration="3'40">
 
   <div class="description">
-    This beautiful poem by Canadian author Emiko Hsuen describes what happens when a child goes through things they cannot understand, and how ultimately our ever present inner child needs the embrace of self love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
+    This beautiful poem by Canadian author Emiko Hsuen describes what occurs when a child goes through things they cannot understand, and how ultimately our ever-present inner child needs the embrace of a higher love. The music illustrates this transition from unsettling harmonies to beautiful and reassuring textures.
   </div>
 
   <Audio title="In the Hour Between - Audience recording" src="https://ik.imagekit.io/hubertrazack/Audio/Choral%20-%20In%20The%20Hour%20Between.mp3" />

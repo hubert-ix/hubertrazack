@@ -42,4 +42,8 @@
     margin-bottom: 3rem;
     max-width: 800px;
   }
+
+  iframe {
+    margin-bottom: 2rem;
+  }
 </style>
