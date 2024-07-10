@@ -15,17 +15,11 @@
 <div in:fade>
 
   <section class="hero">
-    <div class="hero-mobile">
-      <img src="https://ik.imagekit.io/hubertrazack/hubert-razack2c.jpg?tr=w-1000&h-200" alt="Hubert Razack"/>
-    </div>
-    <div class="overlay"></div>
-    <div class="overlay-content">
-      <h1>Hubert <span>Razack</span></h1>
-      <div class="subtitle">Composer for stage, Film/TV, and Media</div>
-    </div>
-    <div class="arrow-down">
-      <div class="scroll" on:click={() => scrollTo('music')}>
-        <img src="/images/arrow-down.png" width="70" height="50" alt="Scroll down" />
+    <div class="hero-inside">
+      <div class="hero-image"></div>
+      <div class="hero-content">
+        <h1>Hubert <span>Razack</span></h1>
+        <div class="subtitle">Composer for stage, Film/TV, and Media</div>
       </div>
     </div>
   </section>
@@ -103,7 +97,7 @@
 
 <style>
   h1 {
-    color: #000;
+    color: #fff;
   }
 
   h1 span {
@@ -120,45 +114,41 @@
   section.hero {
     position: relative;
     height: 760px;
-    max-width: 1600px;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background: #000 url(https://ik.imagekit.io/hubertrazack/hubert-razack4a.jpg?updatedAt=1717369192272) no-repeat;
+    background: url(/images/hero-background.jpg);
     background-size: cover;
-    background-position: 0 0;
+    background-position: top center;
+    overflow: hidden;
     z-index: 1;
     padding: 0;
   }
 
-  .hero-mobile {
-    display: none;
-  }
-
-  .overlay-content {
-    position: relative;
-    z-index: 3;
-  }
-
-  .arrow-down {
-    z-index: 3;
-    position: absolute;
-    bottom: 40px;
-    opacity: .8;
-  }
-
-  .overlay {
-    position: absolute;
-    /*background: rgba(19, 24, 29, .6);*/
-    background: linear-gradient(to left,rgba(19, 24, 29, 0.5),rgba(19, 24, 29, 0.3), rgba(255,255,255,0));
+  .hero-inside {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    content: "";
-    z-index: 2;
+    max-width: 1600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-image {
+    background: url(https://ik.imagekit.io/hubertrazack/hero-hubert.png?updatedAt=1720644063299) no-repeat;
+    background-size: 698px;
+    height: 100%;
+    width: 700px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 3;
+    left: 200px;
   }
 
   .about p {
@@ -196,13 +186,30 @@
     margin-bottom: 1rem;
   }
 
-  @media only screen and (max-width: 1300px) {
-    section.hero {
-      height: 600px;
+  @media only screen and (max-width: 1275px) {
+    .hero-image {
+      left: -50px;
+    }
+
+    .hero-content {
+      left: 250px;
     }
   }
 
   @media only screen and (max-width: 1000px) {
+    section.hero {
+      height: 600px;
+    }
+
+    .hero-image {
+      background-size: 500px;
+      left: -100px;
+    }
+
+    .hero-content {
+      left: 150px;
+    }
+
     .examples {
       grid-template-columns: 1fr 1fr;
     }
@@ -210,13 +217,16 @@
     .contact-grid {
       grid-template-columns: 1fr;
     }
-
   }
 
   @media only screen and (max-width: 800px) {
-    section.hero {
-      height: 500px;
-      margin-top: 75px;
+    h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
     }
 
     section.music {
@@ -230,46 +240,54 @@
     section.music h2 {
       margin-left: 24px;
     }
-
-    .arrow-down {
-      display: none;
-    }
   }
 
   @media only screen and (max-width: 700px) {
-    .overlay-content {
-      position: absolute;
-      right: 50px;
-      top: 100px;
-      text-align: right;
-    }
-
-    h1 {
-      font-size: 3rem;
-      line-height: 3rem;
-    }
-
-    .subtitle {
-      font-size: 1.1rem;
-    }
-    
-    .examples {
-      grid-template-columns: 1fr;
-    }
-
     .contact-icons img {
       width: 50px;
       margin-right: 20px;
     }
-  }
 
-  @media only screen and (max-width: 600px) {
-    .overlay-content {
-      width: 200px;
+    .examples {
+      grid-template-columns: 1fr;
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 630px) {
+    section.hero {
+      height: 500px;
+    }
+
+    .hero-image {
+      background-size: 400px;
+      left: -100px;
+    }
+
+    .hero-content {
+      left: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    h1 {
+      font-size: 2.8rem;
+      line-height: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+
+    .hero-content {
+      top: 0px;
+      left: 80px;
+    }
+
+    .hero-image {
+      background-size: 350px;
+      left: -100px;
+    }
+
     .about img {
       width: 100%;
     }
