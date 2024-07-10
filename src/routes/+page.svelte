@@ -269,11 +269,6 @@
   }
 
   @media only screen and (max-width: 520px) {
-    h1 {
-      font-size: 2.8rem;
-      line-height: 2rem;
-    }
-
     .subtitle {
       font-size: 1rem;
     }
@@ -300,8 +295,7 @@
 
   @media only screen and (max-width: 520px) {
     .hero-content {
-      top: 180px;
-      left: 0px;
+      width: 160px;
     }
   }
 </style>
