@@ -136,7 +136,7 @@
   }
 
   .hero-image {
-    background: url(https://ik.imagekit.io/hubertrazack/hero-hubert.png?updatedAt=1720644063299) no-repeat;
+    background: url(https://ik.imagekit.io/hubertrazack/hero-hubert2.png?updatedAt=1720731806010) no-repeat;
     background-size: 698px;
     height: 100%;
     width: 700px;
