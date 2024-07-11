@@ -54,8 +54,8 @@
   <section class="testimonials">
     <div class="container">
       <Carousel>
-        <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
         <Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />
+        <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
         <Testimonial authorName="Francesca Blandizzi" authorTitle="Singer/songwriter" text="The process from beginning to end was smooth, safe, clear, flowing, positive, creatively charged, inspiring, joyful and customized to how I work best. Hubert's extensive background in music production, playing multiple instruments and being professionally trained as a singer has helped me immensely to take my singing, harmonies and songwriting to a new level." />
       </Carousel>
     </div>
@@ -163,6 +163,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  section.about p {
+    color: #bbb;
   }
 
   section.testimonials {

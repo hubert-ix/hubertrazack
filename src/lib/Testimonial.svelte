@@ -44,8 +44,6 @@
 
   .text {
     margin-bottom: 1rem;
-    font-family: "Playfair Display", serif;
-    font-size: 1.2rem;
   }
 
   .author-name {

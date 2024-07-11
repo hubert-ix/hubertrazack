@@ -16,10 +16,10 @@
       <a href="/singing">Singing</a>
       <a href="/#about">About</a>
       <a href="/#contact">Contact</a>
-      <a href="https://www.instagram.com/hubert.razack" target="new" class="icon"><img src="/images/instagram.png" alt="Instagram" width="30" height="30" /></a>
+      <a href="https://www.instagram.com/hubert.razack" target="new" class="icon"><img src="/images/instagram-white.webp" alt="Instagram" width="24" height="24" /></a>
     </div>
     <div class="mobile-social">
-      <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram.png" alt="Instagram" width="30" height="30" /></a>
+      <a href="https://www.instagram.com/hubert.razack" target="new"><img src="/images/instagram-white.webp" alt="Instagram" width="24" height="24" /></a>
     </div>
   </div>
 </header>
@@ -58,7 +58,7 @@
   header a.icon {
     position: absolute;
     right: 0;
-    top: 0px;
+    top: 5px;
     opacity: 0.8;
   }
 
