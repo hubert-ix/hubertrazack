@@ -9,28 +9,26 @@ export const actions = {
     const email = formData.get('email');
     const message = formData.get('message');
     const token = formData.get('token');
-    //console.log(token, Date.now())
     // check the recaptcha token
     const res = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${PRIVATE_RECAPTCHA_KEY}&response=${token}`, { method: 'POST' });
     const data = await res.json();
-    console.log(data)
-
-    /*
-    // send email
-    let subject = "Enquiry from " + name;
-    let html = '<p>From: ' + name + ' (' + email +')</p>';
-    html += '<p>' + message + '</p>';
-    html = nl2br(html);
-    const resend = new Resend(PUBLIC_RESEND_KEY);
-    const { data, error } = await resend.emails.send({
-      from: 'Website <noreply@hubertrazack.com>',
-      to: ['razack.hubert@gmail.com'],
-      subject,
-      html,
-    });
-    if (error) {
-      console.error("ERROR SENDING EMAIL", error);
-    }*/
+    if (data.success && data.score > 0.5) {
+      // send email
+      let subject = "Enquiry from " + name;
+      let html = '<p>From: ' + name + ' (' + email +')</p>';
+      html += '<p>' + message + '</p>';
+      html = nl2br(html);
+      const resend = new Resend(PUBLIC_RESEND_KEY);
+      const { data, error } = await resend.emails.send({
+        from: 'Website <noreply@hubertrazack.com>',
+        to: ['razack.hubert@gmail.com'],
+        subject,
+        html,
+      });
+      if (error) {
+        console.error("ERROR SENDING EMAIL", error);
+      }
+    }
     return { success: true };
   },
 };
