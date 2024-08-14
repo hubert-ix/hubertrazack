@@ -38,19 +38,6 @@
     </div>
   </section>
 
-  <!--
-  <section class="alt">
-    <div class="container">
-      <h2>Videos</h2>
-      <div class="examples">
-        <PortfolioVideo youtubeId="e7yMki4ROYg" title="Opening Theme for TV Show" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/beyond.jpg?updatedAt=1697912419952" />
-        <PortfolioVideo youtubeId="4wU7_aJlteE" title="Soaring Romantic Theme" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/landscape.jpg?updatedAt=1697912420224" />
-        <PortfolioVideo youtubeId="dM0FUhJiGMU" title="Music for animation/cartoon" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/monsters2.jpg?updatedAt=1714072979197" />
-      </div>
-    </div>
-  </section>
-  -->
-
   <section class="testimonials">
     <div class="container">
       <Carousel>
@@ -60,6 +47,19 @@
       </Carousel>
     </div>
   </section>
+
+  <!--
+  <section class="alt">
+    <div class="container">
+      <h2>Videos</h2>
+      <div class="examples">
+        <PortfolioVideo youtubeId="dM0FUhJiGMU" title="Music for animation/cartoon" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/monsters2.jpg?updatedAt=1714072979197" />
+        <PortfolioVideo youtubeId="e7yMki4ROYg" title="Opening Theme for TV Show" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/beyond.jpg?updatedAt=1697912419952" />
+        <PortfolioVideo youtubeId="4wU7_aJlteE" title="Soaring Romantic Theme" thumbnailURL="https://ik.imagekit.io/hubertrazack/examples/landscape.jpg?updatedAt=1697912420224" />
+      </div>
+    </div>
+  </section>
+  -->
     
   <section class="about alt" id="about">
     <div class="container flex">

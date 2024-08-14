@@ -1,13 +1,22 @@
 import { Resend } from 'resend';
 import { PUBLIC_RESEND_KEY } from '$env/static/public';
+import { PRIVATE_RECAPTCHA_KEY } from '$env/static/private';
 
 export const actions = {
   default: async ({ request }) => {
-
     const formData = await request.formData();
     const name = formData.get('name');
     const email = formData.get('email');
     const message = formData.get('message');
+    const token = formData.get('token');
+    //console.log(token, Date.now())
+    // check the recaptcha token
+    const res = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${PRIVATE_RECAPTCHA_KEY}&response=${token}`, { method: 'POST' });
+    const data = await res.json();
+    console.log(data)
+
+    /*
+    // send email
     let subject = "Enquiry from " + name;
     let html = '<p>From: ' + name + ' (' + email +')</p>';
     html += '<p>' + message + '</p>';
@@ -21,7 +30,7 @@ export const actions = {
     });
     if (error) {
       console.error("ERROR SENDING EMAIL", error);
-    }
+    }*/
     return { success: true };
   },
 };
