@@ -16,7 +16,7 @@
     if (token == null) {
       event.cancel();
       grecaptcha.ready(async () => {
-        token = await grecaptcha.execute(key, { action: 'submit' });
+        token = await grecaptcha.execute(PUBLIC_RECAPTCHA_KEY, { action: 'submit' });
         setTimeout(() => event.formElement.requestSubmit());
       });
       return;
@@ -35,13 +35,13 @@
   {#if !finished}
     <form method="POST" use:enhance={onSubmit}>
       <div class="form-item">
-        <input type="text" name="name" placeholder="Your name" value="H" required />
+        <input type="text" name="name" placeholder="Your name" value="" required />
       </div>
       <div class="form-item">
-        <input type="email" name="email" placeholder="Your email" value="hubert@livingmelody.com" required />
+        <input type="email" name="email" placeholder="Your email" value="" required />
       </div>
       <div class="form-item">
-        <textarea name="message" placeholder="Your message" value="m" required></textarea>
+        <textarea name="message" placeholder="Your message" value="" required></textarea>
       </div>
       <input type="submit" value="Send"  />
     </form>
