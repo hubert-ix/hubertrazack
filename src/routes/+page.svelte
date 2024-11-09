@@ -92,10 +92,24 @@
     </div>
   </section>
 
+  <div class="container" id="sync">
+    <a href="/sync">Sync Portfolio</a>
+  </div>
+
 </div>
 
 
 <style>
+  #sync {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 200;
+    text-align: right;
+  }
+
   h1 {
     color: #fff;
   }
