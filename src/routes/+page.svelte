@@ -93,7 +93,7 @@
   </section>
 
   <div class="container" id="sync">
-    <a href="/sync">Sync Portfolio</a>
+    <a href="/sync">View Sync Portfolio</a>
   </div>
 
 </div>
@@ -108,6 +108,20 @@
     width: 100%;
     z-index: 200;
     text-align: right;
+  }
+
+  #sync a {
+    background: #fff;
+    color: #000;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.4s;
+  }
+
+  #sync a:hover {
+    opacity: 0.6;
   }
 
   h1 {
