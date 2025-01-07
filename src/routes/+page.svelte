@@ -41,7 +41,7 @@
   <section class="testimonials">
     <div class="container">
       <Carousel>
-        <Testimonial authorName="Spencer Litsinger" authorTitle="Director" text="I had the absolute pleasure of working with Hubert on two projects. The music he created went beyond my expectations. The sound is brilliant and adds so much to the scenes. I remember hearing it for the first time and just yelling 'this is PERFECT!' I highly recommend working with him." />
+        <Testimonial authorName="Spencer Litzinger" authorTitle="Director" text="I had the absolute pleasure of working with Hubert on two projects. The music he created went beyond my expectations. The sound is brilliant and adds so much to the scenes. I remember hearing it for the first time and just yelling 'this is PERFECT!' I highly recommend working with him." />
         <Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />
         <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
       </Carousel>
