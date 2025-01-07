@@ -41,9 +41,9 @@
   <section class="testimonials">
     <div class="container">
       <Carousel>
+        <Testimonial authorName="Spencer Litsinger" authorTitle="Director" text="I had the absolute pleasure of working with Hubert on two projects. The music he created went beyond my expectations. The sound is brilliant and adds so much to the scenes. I remember hearing it for the first time and just yelling 'this is PERFECT!' I highly recommend working with him." />
         <Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />
         <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
-        <Testimonial authorName="Francesca Blandizzi" authorTitle="Singer/songwriter" text="The process from beginning to end was smooth, safe, clear, flowing, positive, creatively charged, inspiring, joyful and customized to how I work best. Hubert's extensive background in music production, playing multiple instruments and being professionally trained as a singer has helped me immensely to take my singing, harmonies and songwriting to a new level." />
       </Carousel>
     </div>
   </section>
@@ -59,9 +59,20 @@
       </div>
     </div>
   </section>
-  -->
+
+  <section class="alt">
+    <div class="container">
+      <h2>Selected Credits</h2>
+      <div class="credits">
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/candy-cane-hit.jpg?updatedAt=1734652583858" alt="The Candy Cane Hit" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/the-huntress2.jpg?updatedAt=1734909461074" alt="The Huntress" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
+      </div>
+    </div>
+  </section>-->
     
-  <section class="about alt" id="about">
+  <section class="alt about" id="about">
     <div class="container flex">
       <div class="left">
         <h2>About Hubert</h2>
@@ -191,6 +202,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  .credits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .credits img {
+    max-width: 100%;
   }
 
   section.about p {
