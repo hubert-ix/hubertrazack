@@ -4,7 +4,7 @@
   import PortfolioVideo from "$lib/PortfolioVideo.svelte";
   import Testimonial from "$lib/Testimonial.svelte";
   import ContactForm from "./ContactForm.svelte";
-    import Carousel from "../lib/Carousel.svelte";
+  import Carousel from "../lib/Carousel.svelte";
 
   function scrollTo(id) {
     animateScroll.scrollTo({element: '#' + id, duration: 0})
@@ -42,6 +42,8 @@
     <div class="container">
       <Carousel>
         <Testimonial authorName="Spencer Litzinger" authorTitle="Director" text="I had the absolute pleasure of working with Hubert on two projects. The music he created went beyond my expectations. The sound is brilliant and adds so much to the scenes. I remember hearing it for the first time and just yelling 'this is PERFECT!' I highly recommend working with him." />
+        <Testimonial authorName="Christine Javier" authorTitle="Director" text="I had the pleasure of working with Hubert as the music composer for my short film, and he did an exceptional job. He was incredibly easy to communicate with, always responsive, and took direction seamlessly. Hubert truly understood the vision I had for the project and brought it to life through his music. I would not hesitate to collaborate with him again on future projects." />
+        <Testimonial authorName="Maher El Hares" authorTitle="Creator. Producer. Whatever." text="This was my reaction when first hearing Hubert's music for our movie: 'Holy shit. Ugh it's soo good - jeez - friggin rights he nailed it'. It's so nice to work with someone who actually understands the assignment." />
         <Testimonial authorName="Emiko Hsuen" authorTitle="Director/producer" text="Hubert ranks in first place in terms of the expertise, flexibility, customized attention and genuine interest accorded to each recording experience. The quality of the end product is top notch!" />
         <Testimonial authorName="Caroline Colantonio" authorTitle="Singer/songwriter" text="Hubert was enthusiastic and encouraging from our very first creative meeting. Not only did he have a wealth of original ideas for every one of my songs, but he also approached every decision with a masterful perspective of my record as a whole. His care, patience, and precision are exceptional and his passion for his work greatly elevated my confidence as a young artist." />
       </Carousel>
@@ -59,18 +61,21 @@
       </div>
     </div>
   </section>
+  -->
 
   <section class="alt">
     <div class="container">
       <h2>Selected Credits</h2>
       <div class="credits">
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/last-night.jpg?updatedAt=1741031204049" alt="Last Night" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/candy-cane-hit.jpg?updatedAt=1734652583858" alt="The Candy Cane Hit" />
-        <img src="https://ik.imagekit.io/hubertrazack/Credits/the-huntress2.jpg?updatedAt=1734909461074" alt="The Huntress" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/the-huntress.jpg?updatedAt=1734652583742" alt="The Huntress" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/once-upon-a-rose.jpg?updatedAt=1741031796119" alt="Once Upon a Rose" />
       </div>
     </div>
-  </section>-->
+  </section>
     
   <section class="alt about" id="about">
     <div class="container flex">
@@ -206,7 +211,7 @@
 
   .credits {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
   }
 
