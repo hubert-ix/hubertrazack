@@ -73,6 +73,7 @@
         <img src="https://ik.imagekit.io/hubertrazack/Credits/gentle-barbarians.jpg?updatedAt=1745802248574" alt="Gentle Barbarians" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/backyard-treasure.jpg?updatedAt=1745802590654" alt="Backyard Treasure" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/once-upon-a-rose.jpg?updatedAt=1741031796119" alt="Once Upon a Rose" />
       </div>
     </div>
