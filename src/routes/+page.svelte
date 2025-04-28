@@ -70,6 +70,7 @@
         <img src="https://ik.imagekit.io/hubertrazack/Credits/last-night.jpg?updatedAt=1741031204049" alt="Last Night" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/candy-cane-hit.jpg?updatedAt=1734652583858" alt="The Candy Cane Hit" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/the-huntress2.jpg?updatedAt=1734909461074" alt="The Huntress" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/gentle-barbarians.jpg?updatedAt=1745802248574" alt="Gentle Barbarians" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/once-upon-a-rose.jpg?updatedAt=1741031796119" alt="Once Upon a Rose" />
