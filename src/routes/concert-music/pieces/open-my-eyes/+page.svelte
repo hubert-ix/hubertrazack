@@ -3,14 +3,16 @@
 </script>
 
 
-<PieceFull title="Open my Eyes" date="2025" ensemble="SATB and piano" duration="2'30">
+<PieceFull title="Open My Eyes" date="2025" ensemble="SATB and piano" duration="2'30">
 
   <div class="description">
     A beautiful text speaking of how important it is to recognise the limitation of perceptions, and how our world view can be transformed by something higher than us.
   </div>
   
   <div class="piece-columns">
-    <img src="https://www.kidsbeachclub.org/images/uploads/eye_open.png" alt="Open My Eyes" width="400" />
+    <div class="image">
+      <img src="https://www.kidsbeachclub.org/images/uploads/eye_open.png" alt="Open My Eyes" width="400" />
+    </div>
     <div>
       <div class="lyrics">
         Open my eyes, that I may see<br />

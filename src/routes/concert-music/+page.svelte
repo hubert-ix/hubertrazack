@@ -11,7 +11,7 @@
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
-        <Piece type="choral" title="Open My Eyes" year="2025" ensemble="For SATB" slug="open-my-eyes">
+        <Piece type="choral" title="Open My Eyes" year="2025" ensemble="For SATB and piano" slug="open-my-eyes">
           A beautiful text speaking of how important it is to recognise the limitation of perceptions, and how our world view can be transformed by something higher than us.
         </Piece>
         <Piece type="choral" title="The Springtime of Lovers" year="2022" ensemble="For SATB" slug="springtime-of-lovers">
