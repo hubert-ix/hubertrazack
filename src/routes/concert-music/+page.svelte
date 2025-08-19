@@ -11,6 +11,9 @@
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
+        <Piece type="choral" title="Open My Eyes" year="2025" ensemble="For SATB" slug="open-my-eyes">
+          A beautiful text speaking of how important it is to recognise the limitation of perceptions, and how our world view can be transformed by something higher than us.
+        </Piece>
         <Piece type="choral" title="The Springtime of Lovers" year="2022" ensemble="For SATB" slug="springtime-of-lovers">
           An adpatation of a poem by Rumi, which reflects the mystical and symbolic language common in Sufi poetry. It encapsulates his central themes of love, transformation, and the search for the divine. I kept the music very straightforward, with only a slight twist at the end as the "body becomes wholly soul".
         </Piece>
@@ -55,6 +58,9 @@
     <div class="container">
       <h2>Vocal</h2>
       <div class="items small">
+        <Piece type="vocal" title="Au bord de la mer" year="2025">
+          Art song (poem by Théophile Gautier) - high/medium voice
+        </Piece>
         <Piece type="vocal" title="Awake to Smile" year="2022">
           Art song (poem by Robert William Service) - high/medium voice
         </Piece>
