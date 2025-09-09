@@ -84,8 +84,8 @@
       <div class="left">
         <h2>About Hubert</h2>
         <p>Hubert Razack is a composer for film, TV, and stage based in Toronto. He recently mixed the music for the upcoming feature length movie <strong>Gentle Barbarians</strong>, featuring Canadian MMA superstar George St Pierre, and composed the soundtrack for the anticipated animated movie <strong>The Candy Cane Hit</strong>. He wrote the theme music for the modern classical <strong>OriginL</strong> concert series, and was commissioned to create the music for the Irish dance show <strong>Once Upon a Rose</strong> which premiered in Mexico City by Bradigan Dance. He is a regular contributor to trailer music and production music libraries.</p>
-        <p>A versatile musician and collaborator with over 20 years of diverse music experience, Hubert's electronic project Esthesia has received airplay throughout Canada, and as a music producer he has produced records and played for several independent artists including UK-based rock band <strong>The Audio Journal</strong> and Canadian singer songwriter <strong>Caroline Colantonio</strong>. Classically-trained in France, Hubert has performed as a tenor  in several operas, oratorios, and recitals in the Toronto area, and has written many classical works that are internationally performed.</p>
-        <p>Hubert completed a post-graduate music composition course with honours at Humber College. His teachers included renowned composer Kevin Lau and orchestrator Rebecca Pellet. He is a member of the Screen Composers Guild of Canada and resides in Toronto where he enjoys practicing and teaching the art of Chi Kung.</p>
+        <p>A versatile musician and collaborator with over 20 years of diverse music experience, Hubert's electronic project Esthesia has received airplay throughout Canada, and as a music producer he has produced records and played for several independent artists including UK-based rock band <strong>The Audio Journal</strong> and Canadian singer songwriter <strong>Caroline Colantonio</strong>. Raised and classically-trained in France, Hubert has performed as a tenor  in several operas, oratorios, and recitals in the Toronto area, and has written many classical works that are internationally performed.</p>
+        <p>Having originally studied applied mathematics in France, Hubert completed a post-graduate music composition course with honours at Humber College. His teachers included renowned composer Kevin Lau and orchestrator Rebecca Pellet. He is a member of the Screen Composers Guild of Canada and resides in Toronto where he enjoys practicing and teaching the art of Chi Kung.</p>
       </div>
       <div class="right">
         <img src="https://ik.imagekit.io/hubertrazack/hubert-razack3.jpg?tr=w-600" alt="Hubert Razack" />
@@ -110,9 +110,11 @@
     </div>
   </section>
 
+  <!--
   <div class="container" id="sync">
     <a href="/sync">View Sync Portfolio</a>
   </div>
+  -->
 
 </div>
 
