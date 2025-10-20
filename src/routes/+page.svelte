@@ -69,8 +69,9 @@
       <div class="credits">
         <img src="https://ik.imagekit.io/hubertrazack/Credits/last-night.jpg?updatedAt=1741031204049" alt="Last Night" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/candy-cane-hit.jpg?updatedAt=1734652583858" alt="The Candy Cane Hit" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/Gentle%20Barbarians%20Poster.jpg?updatedAt=1760984758227" alt="Gentle Barbarians" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/the-huntress2.jpg?updatedAt=1734909461074" alt="The Huntress" />
-        <img src="https://ik.imagekit.io/hubertrazack/Credits/gentle-barbarians.jpg?updatedAt=1745802248574" alt="Gentle Barbarians" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/Lost%20Perspective%20Poster.jpg?updatedAt=1760984636169" alt="Lost Perspectives" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/backyard-treasure.jpg?updatedAt=1745802590654" alt="Backyard Treasure" />
