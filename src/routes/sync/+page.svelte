@@ -8,11 +8,9 @@
   <section class="first">
     <div class="container">
 
-      <h2>Sync Portfolio</h2>
+      <h2>Sync Demo Reel</h2>
 
-      <p>Hubert specializes in hybrid instrumentals with high energy and great production.</p>
-
-      <iframe id="disco-playlist-19784649" name="disco-playlist-19784649" allowfullscreen frameborder="0" class="disco-embed" src="https://hubert-razack.disco.ac/e/p/19784649?download=false&s=PqTUveATmigL2iJgEr5ugJLbW3c%3AeCmYQNo0&artwork=true&color=%2332B57C&theme=white" width="100%" height="1100"></iframe>
+      <iframe id="disco-playlist-19784649" name="disco-playlist-19784649" allowfullscreen frameborder="0" class="disco-embed" src="https://hubert-razack.disco.ac/e/p/19784649?download=false&s=PqTUveATmigL2iJgEr5ugJLbW3c%3AeCmYQNo0&artwork=true&color=%2332B57C&theme=white" width="100%" height="1300"></iframe>
 
     </div>
   </section>

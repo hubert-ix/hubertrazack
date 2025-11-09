@@ -112,11 +112,9 @@
     </div>
   </section>
 
-  <!--
   <div class="container" id="sync">
-    <a href="/sync">View Sync Portfolio</a>
+    <a href="/sync">View Sync Demo Reel</a>
   </div>
-  -->
 
 </div>
 
@@ -135,7 +133,7 @@
   #sync a {
     background: #fff;
     color: #000;
-    padding: 4px 12px;
+    padding: 10px 16px;
     border-radius: 20px;
     text-decoration: none;
     font-size: 0.9rem;
