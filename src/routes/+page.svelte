@@ -67,6 +67,8 @@
     <div class="container">
       <h2>Selected Credits</h2>
       <div class="credits">
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/Darling-Angel.jpg" alt="Darling Angel" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/A-Slice-of-Love.jpg" alt="A Slice of Love" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/last-night.jpg?updatedAt=1741031204049" alt="Last Night" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/candy-cane-hit.jpg?updatedAt=1734652583858" alt="The Candy Cane Hit" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/Stay%20Awhile.jpg?updatedAt=1760984919400" alt="Stay Awhile" />
@@ -75,7 +77,7 @@
         <img src="https://ik.imagekit.io/hubertrazack/Credits/Lost%20Perspective%20Poster.jpg?updatedAt=1760984636169" alt="Lost Perspectives" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/inspecteur-disco-2000.jpg?updatedAt=1734836092130" alt="Inspecteur Disco 2000" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/high-priestess.jpg?updatedAt=1734652583737" alt="High Priestess of Eastern Ontario" />
-        <img src="https://ik.imagekit.io/hubertrazack/Credits/backyard-treasure.jpg?updatedAt=1745802590654" alt="Backyard Treasure" />
+        <img src="https://ik.imagekit.io/hubertrazack/Credits/Backyard%20Treasure.jpg" alt="Backyard Treasure" />
         <img src="https://ik.imagekit.io/hubertrazack/Credits/save-the-date.jpg?updatedAt=1748550234612" alt="Save the Date" />
       </div>
     </div>

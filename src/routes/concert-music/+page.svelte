@@ -11,6 +11,12 @@
     <div class="container">
       <h2>Choral</h2>
       <div class="items">
+        <Piece type="choral" title="Sanctus" year="2026" ensemble="For SATB" slug="sanctus">
+          Perhaps I should write a whole mass one day, but for now we have a simple and reflective Sanctus.
+        </Piece>
+        <Piece type="choral" title="Deep Peace" year="2026" ensemble="For SATB and organ" slug="deep-peace">
+          A setting for the beautiful Gaelic blessing "Deep Peace of the Running Waves".
+        </Piece>
         <Piece type="choral" title="Open My Eyes" year="2025" ensemble="For SATB and piano" slug="open-my-eyes">
           A beautiful text speaking of how important it is to recognise the limitation of perceptions, and how our world view can be transformed by something higher than us.
         </Piece>
@@ -58,6 +64,9 @@
     <div class="container">
       <h2>Vocal</h2>
       <div class="items small">
+        <Piece type="vocal" title="Les beatitudes" year="2025">
+          Les beatitudes - high/medium voice
+        </Piece>
         <Piece type="vocal" title="Au bord de la mer" year="2025">
           Art song (poem by Théophile Gautier) - high/medium voice
         </Piece>
