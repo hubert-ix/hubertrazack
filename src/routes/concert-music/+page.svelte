@@ -12,7 +12,7 @@
       <h2>Choral</h2>
       <div class="items">
         <Piece type="choral" title="Sanctus" year="2026" ensemble="For SATB" slug="sanctus">
-          Perhaps I should write a whole mass one day, but for now we have a simple and reflective Sanctus.
+          A simple and reflective setting of the traditional Sanctus.
         </Piece>
         <Piece type="choral" title="Deep Peace" year="2026" ensemble="For SATB and organ" slug="deep-peace">
           A setting for the beautiful Gaelic blessing "Deep Peace of the Running Waves".
